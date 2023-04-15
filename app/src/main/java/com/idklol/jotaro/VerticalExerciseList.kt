@@ -8,11 +8,9 @@ import androidx.compose.runtime.Composable
 // Given a Kotlin List of Exercise items, loads
 //  them into a Lazy Column and is displayed via `ExerciseCard`
 fun VerticalExerciseList(exerciseItems: List<Exercise>) {
-    if (exerciseItems != null) { // Null check
-        LazyColumn {
-            items(exerciseItems) { exercise ->
-                ExerciseCard(exercise)
-            }
+    LazyColumn {
+        items(exerciseItems) { exercise ->
+            ExerciseCard(exercise)
         }
     }
 }

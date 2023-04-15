@@ -20,6 +20,10 @@ import com.google.gson.Gson
 import java.io.File
 
 
+// To build paths:
+// For example: github_data_path + "png/0001-relaxation.png" to get the photo
+val github_data_path = "https://raw.githubusercontent.com/10dollarusername/Jotaro-Exercise-Data/main/"
+
 @Composable
 fun ExerciseCard(exercise: Exercise) {
     Card(
@@ -41,7 +45,7 @@ fun ExerciseCard(exercise: Exercise) {
                     // TODO: vvvvvvvvvvvvvvv
                     //  So, we're loading the JSON data directly from string
                     //      We only have 'png/<png file here>', but Kotlin doesn't know where to find it
-                    //png/0001-relaxation.png
+//                    png/0001-relaxation.png
                     print(path)
                     print("____")
 //                    Image(rememberImagePainter(File(path)),

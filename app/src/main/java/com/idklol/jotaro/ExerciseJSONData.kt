@@ -1,6 +1,9 @@
 package com.idklol.jotaro
 
-data class ExerciseJSONData(val data: String) {
+// A data class
+// The default value is the raw json data. So, just load a random string, and then access the `json_data`
+//      default value to get the JSON data.
+data class ExerciseJSONData(val unimportantString: String) {
     var json_data = """
 [
     {
