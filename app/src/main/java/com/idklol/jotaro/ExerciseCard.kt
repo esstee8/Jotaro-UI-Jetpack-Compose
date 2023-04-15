@@ -17,13 +17,14 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import com.google.gson.Gson
+import java.io.File
 
 
 @Composable
 fun ExerciseCard(exercise: Exercise) {
     Card(
         shape = RoundedCornerShape(8.dp),
-        elevation = 8.dp,
+        elevation = 12.dp,
         backgroundColor = MaterialTheme.colors.surface,
         modifier = Modifier.padding(8.dp)
     ) {
@@ -36,12 +37,27 @@ fun ExerciseCard(exercise: Exercise) {
                 color = Color.LightGray
             ) {
                 if (exercise.png.isNotEmpty()) {
+                    val path = exercise.png[1]
+                    // TODO: vvvvvvvvvvvvvvv
+                    //  So, we're loading the JSON data directly from string
+                    //      We only have 'png/<png file here>', but Kotlin doesn't know where to find it
+                    //png/0001-relaxation.png
+                    print(path)
+                    print("____")
+//                    Image(rememberImagePainter(File(path)),
+//                        contentDescription = exercise.title
+//                    )
+
                     Image(
-                        // TODO: PUT IMAGES IN THE CARD
+                        // TODO: Put 'relax' (or 'flex') images in the card
+                        // TODO: Put both the images side by side
+//                        painter = painterResource(id = exercise.png[0] ),
                         ColorPainter(Color.Blue),
 //                        painterResource(id = exercise.svg[0]),
                         contentDescription = exercise.title
                     )
+
+
                 }
             }
 

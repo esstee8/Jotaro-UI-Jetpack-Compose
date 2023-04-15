@@ -1,14 +1,10 @@
 package com.idklol.jotaro
 
-import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.runtime.Composable
 import com.google.gson.Gson
-import java.io.FileReader
-import com.fasterxml.jackson.module.kotlin.jacksonObjectMapper
 
-// ToDo: Put the JacksonMapper into it's own Kotlin File
 
+// ToDo: load `exercise_data` from remote url rather then a string
 val exercise_data = """
     [
         {
@@ -9742,38 +9738,20 @@ val exercise_data = """
             "png": []
         }
     ]
-""".trimIndent() // TODO:
+""".trimIndent()
 
 
 @Composable
 fun ExerciseList() {
 
+    // Load gson, create java array, then convert it to kotlin array for loading
+    //  into `VerticalExerciseList` (which internally uses LazyColumn)
     val gson = Gson()
-//    val exercises = gson.fromJson(jsonData, Array<Exercise>::class.java)
-//    var json_path = FileReader(jsonPath)
     val exercises = gson.fromJson(exercise_data, Array<Exercise>::class.java)
+    val exerciseList = exercises.asList()
 
-//    print(exercises)
-//    print("____________________________________________________________________________________________________________")
-//    val mapper = jacksonObjectMapper()
-//    val exerciseListFromJson: List<Exercise> = mapper.readValue(exercise_data)
-//    val exercises_kotlin = exercises.asList()
-//    print(exercises_kotlin)
+    VerticalExerciseList(exerciseItems = exerciseList)
 
-//    print("asdf")
-
-
-//    LazyColumn(){
-//        items(exercises_kotlin) { exercise ->
-//            ExerciseCard(exercise)
-//        }
-//    }
-// TODO: Change to LazyColumn
-    Column {
-        for (exercise in exercises) {
-            ExerciseCard(exercise)
-        }
-    }
 
 
 }
