@@ -85,7 +85,6 @@ fun TabLayout() {
         // for displaying our page for each tab layout
         TabsContent(pagerState = pagerState) // TAB CONTENT
 
-        // TODO: Delete this on publish lol
-        Text(text = "TINKYWINKY, DIPSY, LAA-LAA, and PO")
+        // TODO: Can put a bottom bar here?
     }
 }

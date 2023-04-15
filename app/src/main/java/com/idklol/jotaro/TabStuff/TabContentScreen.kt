@@ -12,6 +12,9 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import com.idklol.jotaro.ui.theme.jotaroColor
 
+// TODO: So `TabContentScreen` takes data as string, and displays it.
+//  So It is a template Composable that only does one thing: Display `data` on the screen
+
 // on below line we are creating a Tab Content
 // Screen for displaying a simple text message.
 @Composable
