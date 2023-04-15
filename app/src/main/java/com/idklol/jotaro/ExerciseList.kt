@@ -9,14 +9,12 @@ fun ExerciseList() {
     // Load gson, create java array, then convert it to kotlin array for loading
     //  into `VerticalExerciseList` (which internally uses LazyColumn)
     val gson = Gson()
-//    val json_path = "com/idklol/jotaro/data/exercises.json"
-
     // So, just put the string data in a Data Class. Doesn't matter what the input text is, since it
     //  (the `ExerciseJSONData` class) always has the json data as default
     val jsonData = ExerciseJSONData("").json_data
-    val exercises = gson.fromJson(jsonData, Array<Exercise>::class.java)
-    val exerciseList = exercises.asList()
-
+    // Then, deserialize the JSON data into a kotlin List
+    val exerciseList = gson.fromJson(jsonData, Array<Exercise>::class.java).asList()
+    // Then display it into a LazyColumn
     VerticalExerciseList(exerciseItems = exerciseList)
 
 }

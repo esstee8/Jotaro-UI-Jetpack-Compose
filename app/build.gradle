@@ -47,15 +47,19 @@ android {
 }
 
 dependencies {
-    // Paging Compose
+    // Paging Compose (and other accompanist dependencies)
     implementation "com.google.accompanist:accompanist-pager:0.13.0"
     implementation "com.google.accompanist:accompanist-pager-indicators:0.13.0"
+    implementation "com.google.accompanist:accompanist-permissions:0.13.0"
 
     //GSON
     implementation 'com.google.code.gson:gson:2.10.1'
 
     //Jackson
     implementation 'com.fasterxml.jackson.module:jackson-module-kotlin:2.12.1'
+
+    // Coil
+    implementation("io.coil-kt:coil-compose:2.3.0")
 
     implementation 'androidx.core:core-ktx:1.7.0'
     implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.3.1'

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Jotaro</string>
+    <string name="placholder_image_desc">This is a placeholder image</string>
 
 
 </resources>
