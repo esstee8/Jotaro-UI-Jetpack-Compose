@@ -1,9 +1,5 @@
 package com.idklol.jotaro
 
-import android.util.Log
-import androidx.activity.compose.rememberLauncherForActivityResult
-import androidx.activity.result.contract.ActivityResultContracts
-import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
@@ -15,51 +11,41 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.graphics.painter.ColorPainter
-import androidx.compose.ui.graphics.painter.Painter
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.TextStyle
+import androidx.compose.ui.text.font.FontFamily
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 import coil.compose.AsyncImage
-import coil.compose.rememberImagePainter
 import coil.request.ImageRequest
 import com.google.gson.Gson
-import java.io.File
+import com.idklol.jotaro.ui.theme.BoldText
+
+
 
 
 // To build paths:
 // For example: github_data_path + "png/0001-relaxation.png" to get the photo
-val github_data_path = "https://raw.githubusercontent.com/10dollarusername/Jotaro-Exercise-Data/main/"
+const val github_data_path = "https://raw.githubusercontent.com/10dollarusername/Jotaro-Exercise-Data/main/"
+
+
 
 @Composable
 // TODO: Make the exercise card more sexy
 // TODO: Tap on the card to display a new view that shows the Exercise view in more detail, and option to add to a Workout
 // TODO: Quick select multiple cards, along with filtering options
 fun ExerciseCard(exercise: Exercise) {
-    // Get internet permission
-    val launcher = rememberLauncherForActivityResult(
-        ActivityResultContracts.RequestPermission()
-    ) { isGranted: Boolean ->
-        if (isGranted) {
-            // Permission Accepted: Do something
-            Log.d("ExampleScreen","PERMISSION GRANTED")
-
-        } else {
-            // Permission Denied: Do something
-            Log.d("ExampleScreen","PERMISSION DENIED")
-        }
-    }
-    val context = LocalContext.current
-
-
     Card(
         shape = RoundedCornerShape(8.dp),
-        elevation = 12.dp,
+        elevation = 18.dp,
         backgroundColor = MaterialTheme.colors.surface,
-        modifier = Modifier.padding(8.dp)
+        modifier = Modifier.padding(12.dp)
     ) {
         Column {
             Surface(
@@ -70,8 +56,10 @@ fun ExerciseCard(exercise: Exercise) {
                 color = Color.LightGray
             ) {
                 if (exercise.png.isNotEmpty()) {
+                    // TODO: Don't load the image unless tapped
+                    // TODO: Add filters
                     // TODO: Why does it load the placeholder.
-                    // TODO: Why does it load wierdly lol
+                    // TODO: Why does it load weirdly lol
                     AsyncImage( // Load the exercise image
                         model = ImageRequest.Builder(LocalContext.current)
                             .data(github_data_path + exercise.png[1])
@@ -82,70 +70,61 @@ fun ExerciseCard(exercise: Exercise) {
                         contentScale = ContentScale.Crop,
                         modifier = Modifier.clip(CircleShape)
                     )
-
-//                    val image = AsyncImage(
-//                        // github_data_path + png/0001-relaxation.png
-//                        model = github_data_path + exercise.png[1], //
-//                        contentDescription = exercise.title
-//                    )
-
-//                    Image(
-//                        // TODO: Put 'relax' (or 'flex') images in the card
-//                        // TODO: Put both the images side by side
-////                        painter = painterResource(id = exercise.png[0] ),
-//                        ColorPainter(Color.Blue),
-////                        painterResource(id = exercise.svg[0]),
-//                        contentDescription = exercise.title
-//                    )
-
-
                 }
             }
 
             Column(
                 modifier = Modifier.padding(16.dp)
             ) {
-                Text(
+                Text( // Title
                     text = exercise.title,
-                    style = MaterialTheme.typography.h5,
+                    style = MaterialTheme.typography.h1,
                     textAlign = TextAlign.Center,
+                    color = com.idklol.jotaro.ui.theme.jotaroDarkIntenseBlue,
+                    fontSize = 22.sp,
+                    fontWeight = FontWeight.Bold,
+                    letterSpacing = 4.sp,
                     modifier = Modifier.fillMaxWidth()
                 )
-                Text(
-                    text = exercise.primer,
-                    style = MaterialTheme.typography.subtitle2,
-                    textAlign = TextAlign.Center,
-                    modifier = Modifier.fillMaxWidth()
-                )
-                Spacer(modifier = Modifier.height(16.dp))
-                Text(
-                    text = "Primary muscles: ${exercise.primary.joinToString()}",
-                    style = MaterialTheme.typography.body2
-                )
-                Text(
-                    text = "Secondary muscles: ${exercise.secondary.joinToString()}",
-                    style = MaterialTheme.typography.body2
-                )
-                Text(
-                    text = "Equipment: ${exercise.equipment.joinToString()}",
-                    style = MaterialTheme.typography.body2
-                )
-                Spacer(modifier = Modifier.height(8.dp))
-                for (step in exercise.steps) {
-                    Text(
-                        text = step,
-                        style = MaterialTheme.typography.body2
-                    )
-                }
-                Spacer(modifier = Modifier.height(8.dp))
-                for (tip in exercise.tips) {
-                    Text(
-                        text = "Tip: $tip",
-                        style = MaterialTheme.typography.body2,
-                        color = MaterialTheme.colors.secondary
-                    )
-                }
+//                Text(
+//                    text = exercise.primer,
+//                    style = MaterialTheme.typography.subtitle2,
+//                    textAlign = TextAlign.Center,
+//                    modifier = Modifier.fillMaxWidth()
+//                )
+//                Spacer(modifier = Modifier.height(16.dp))
+//                Text(
+//                    text = "Primary muscles: ${exercise.primary.joinToString()}",
+//                    style = MaterialTheme.typography.body2
+//                )
+//                Text(
+//                    text = "Secondary muscles: ${exercise.secondary.joinToString()}",
+//                    style = MaterialTheme.typography.body2
+//                )
+//                Text(
+//                    text = "Equipment: ${exercise.equipment.joinToString()}",
+//                    style = MaterialTheme.typography.body2
+//                )
+//                Spacer(modifier = Modifier.height(8.dp))
+//                for (step in exercise.steps) {
+//                    Text(
+//                        text = step,
+//                        style = MaterialTheme.typography.body2
+//                    )
+//                }
+//                Spacer(modifier = Modifier.height(8.dp))
+//                for (tip in exercise.tips) {
+//                    Text(
+//                        text = "Tip: $tip",
+//                        style = MaterialTheme.typography.body2,
+//                        color = MaterialTheme.colors.secondary
+//                    )
+//                }
             }
         }
     }
 }
+
+
+
+
