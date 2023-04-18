@@ -651,8 +651,8 @@ data class ExerciseJSONData(val unimportantString: String) {
     },
     {
         "id": "0020",
-        "name": "back-flys-exercise-b&",
-        "title": "Back Fly's with Exercise B&",
+        "name": "back-flys-exercise-band",
+        "title": "Back Fly's with Exercise Band",
         "primer": "An exercise for shoulder, middle back & triceps strengthening.",
         "type": "isolation",
         "primary": [
@@ -663,12 +663,12 @@ data class ExerciseJSONData(val unimportantString: String) {
             "latissimus dorsi"
         ],
         "equipment": [
-            "exercise b&"
+            "exercise band"
         ],
         "steps": [
-            "Place an exercise b& around a post or machine at mid chest height.",
+            "Place an exercise band around a post or machine at mid chest height.",
             "St& with your feet shoulder width apart, abs drawn in & knees slightly bent.",
-            "St& back from the post so there is tension in the b&, grasping the b& with your arms extended in front of you & a slight bend in your elbows; this is your starting position.",
+            "St& back from the post so there is tension in the band, grasping the band with your arms extended in front of you & a slight bend in your elbows; this is your starting position.",
             "Bring your arms back in a controlled motion till they are parallel at your sides & in line with your shoulders.",
             "Slowly return your arms to the starting position in front of your chest.",
             "Repeat."
@@ -1438,8 +1438,8 @@ data class ExerciseJSONData(val unimportantString: String) {
     },
     {
         "id": "0044",
-        "name": "incline-bench-press-with-b&s",
-        "title": "Bench Press: B&s (Incline)",
+        "name": "incline-bench-press-with-bands",
+        "title": "Bench Press: Bands (Incline)",
         "primer": "An exercise for chest & biceps strengthening.",
         "type": "isolation",
         "primary": [
@@ -1449,13 +1449,13 @@ data class ExerciseJSONData(val unimportantString: String) {
             "biceps brachii"
         ],
         "equipment": [
-            "exercise b&",
+            "exercise band",
             "bench: incline"
         ],
         "steps": [
-            "Securely fasten the b& under the leg of a flat bench, near your head.",
+            "Securely fasten the band under the leg of a flat bench, near your head.",
             "Lie flat on the bench with your feet flat on the floor in order to stabilise your movements.",
-            "Grasp one end of the b& in each h& & starting with your h&s at chest level.",
+            "Grasp one end of the band in each h& & starting with your h&s at chest level.",
             "Press upwards so your arms are fully extended.",
             "With a slow controlled motion return to starting position."
         ],
@@ -1638,8 +1638,8 @@ data class ExerciseJSONData(val unimportantString: String) {
     },
     {
         "id": "0050",
-        "name": "crossover-b&s",
-        "title": "Crossover with B&s",
+        "name": "crossover-bands",
+        "title": "Crossover with Bands",
         "primer": "An exercise for chest, biceps & shoulder strengthening",
         "type": "isolation",
         "primary": [
@@ -1650,12 +1650,12 @@ data class ExerciseJSONData(val unimportantString: String) {
             "biceps brachii"
         ],
         "equipment": [
-            "exercise b&"
+            "exercise band"
         ],
         "steps": [
             "An exercise for chest, biceps & shoulder strengthening.",
             "Secure an exercise to a post (or secure pole) & hold it in each h&.",
-            "Step forward so the b& has some tension, facing away from the post.",
+            "Step forward so the band has some tension, facing away from the post.",
             " Your arms at mid chest height & out to the side, palms facing forward this is your starting position.",
             "Bring your h&s together in front of you.",
             "Hold this for a moment & then in a controlled motion return to starting position."
@@ -3100,8 +3100,8 @@ data class ExerciseJSONData(val unimportantString: String) {
     },
     {
         "id": "0094",
-        "name": "upright-b&-rows",
-        "title": "Upright B& Rows",
+        "name": "upright-band-rows",
+        "title": "Upright Band Rows",
         "primer": "An exercise for lats, triceps & shoulder strengthening.",
         "type": "isolation",
         "primary": [
@@ -3113,10 +3113,10 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "equipment": [
             "body",
-            "exercise b&"
+            "exercise band"
         ],
         "steps": [
-            "St& on the b& so that the h&les are level with your upper thigh.",
+            "St& on the band so that the h&les are level with your upper thigh.",
             "With your back straight & abs drawn in raise your h&s upward to your collarbone.",
             "Your elbows & arms should be parallel with the floor.",
             "Slowly lower your arms & return to starting position."
@@ -5069,9 +5069,9 @@ data class ExerciseJSONData(val unimportantString: String) {
     },
     {
         "id": "0155",
-        "name": "squats-with-exercise-b&s",
-        "title": "Squats: Exercise B&s",
-        "primer": "This version of the Squat uses flexible exercise b&s for resistance instead of weights.",
+        "name": "squats-with-exercise-bands",
+        "title": "Squats: Exercise Bands",
+        "primer": "This version of the Squat uses flexible exercise bands for resistance instead of weights.",
         "type": "compound",
         "primary": [
             "quadriceps"
@@ -5083,11 +5083,11 @@ data class ExerciseJSONData(val unimportantString: String) {
             "ischiocrural muscles"
         ],
         "equipment": [
-            "exercise b&"
+            "exercise band"
         ],
         "steps": [
-            "St& with your feet on the exercise b&s with your feet shoulder width apart.",
-            "Grasp the h&les of the b&s & pull them up to your shoulders.",
+            "St& with your feet on the exercise bands with your feet shoulder width apart.",
+            "Grasp the h&les of the bands & pull them up to your shoulders.",
             "With your abs drawn in, squat down until your thighs are parallel with the floor.",
             "Slowly return to the starting position.",
             "Note: Keep your feet firmly planted on the floor throughout this exercise."
@@ -8450,9 +8450,9 @@ data class ExerciseJSONData(val unimportantString: String) {
     },
     {
         "id": "0261",
-        "name": "quick-alternating-biceps-curls-with-b&",
-        "title": "Quick Alternating Biceps Curls with B&",
-        "primer": "This exercise uses a bungy or exercise b& for resistance.",
+        "name": "quick-alternating-biceps-curls-with-band",
+        "title": "Quick Alternating Biceps Curls with Band",
+        "primer": "This exercise uses a bungy or exercise band for resistance.",
         "type": "isolation",
         "primary": [
             "biceps brachii"
@@ -8461,7 +8461,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "triceps brachii"
         ],
         "equipment": [
-            "exercise b&"
+            "exercise band"
         ],
         "steps": [
             "Place a bungy under your feet & hold the h&les palms forward in your h&s.",
@@ -8912,8 +8912,8 @@ data class ExerciseJSONData(val unimportantString: String) {
     },
     {
         "id": "0274",
-        "name": "calf-raises-with-b&",
-        "title": "Calf Raises with B&",
+        "name": "calf-raises-with-band",
+        "title": "Calf Raises with Band",
         "primer": "",
         "type": "isolation",
         "primary": [
@@ -8922,11 +8922,11 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "secondary": [],
         "equipment": [
-            "exercise b&"
+            "exercise band"
         ],
         "steps": [
-            "This exercise uses a b& to create resistance.",
-            "St& with your toes on an exercise b& & raise the h&les up to your shoulders.",
+            "This exercise uses a band to create resistance.",
+            "St& with your toes on an exercise band & raise the h&les up to your shoulders.",
             "Raise up on your toes, keeping your h&s up by your shoulders.",
             "Pause for a moment & then lower your heel to the floor.",
             "Repeat."

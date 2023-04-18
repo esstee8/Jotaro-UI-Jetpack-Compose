@@ -8,6 +8,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.idklol.jotaro.Exercise
@@ -89,10 +90,12 @@ fun ExerciseCard(exercise: Exercise) {
                 Spacer(modifier = Modifier.height(5.dp))
 
 //                Divider(startIndent = 8.dp, thickness = 1.dp, color = Color.Gray)
-                Divider(startIndent = 8.dp, thickness =3.dp, color = Color.Black)
+                Divider( thickness = 3.dp, color = Color.Black)
 
                 // Random info bits
                 // The `exercise` was passed to THIS card scope, and we pass it to `InfoBitCard`
+
+                Spacer(modifier = Modifier.height(5.dp))
 
                 InfoBitRow(exercise = exercise)
 
@@ -128,7 +131,5 @@ fun ExerciseCard(exercise: Exercise) {
         }
     }
 }
-
-
 
 

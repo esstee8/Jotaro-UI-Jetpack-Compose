@@ -2,6 +2,9 @@ package com.idklol.jotaro.ExerciseTabStuff
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
+import androidx.compose.material.Card
+import androidx.compose.material.Divider
+import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
@@ -13,31 +16,39 @@ import com.idklol.jotaro.Exercise
 // TODO: Can we optimize this by only passing in necessary pieces of info?
 // Given an `Exercise` object, creates a row w/various info bits, horizontally
 fun InfoBitRow(exercise: Exercise) {
-    Row(
-        horizontalArrangement = Arrangement.SpaceEvenly,
-        modifier = Modifier
-            .fillMaxWidth()
-            .background(
-                Color.Cyan // color for debugging purposes
+    Card(modifier = Modifier){
+        Row(
+            horizontalArrangement = Arrangement.SpaceAround
+        ) {
+            // TODO : GENERALIZE THIS DON'T LEAVE THE EXAMPLES INSIDE
+            //Type
+            InfoBitText(topString = "TYPE", bottomString = "isolation")
+
+            Divider(
+                color = Color.Black,
+                modifier = Modifier
+                    .fillMaxHeight()  //fill the max height
+                    .width(1.dp)
             )
-    ) {
-        // type
-        Box(Modifier.padding(8.dp)) {
-            InfoBitCard(topString = "Type", bottomString = exercise.type)
-        }
-        // Primary
-        // TODO: Values in the Array to formatted String
-        Box(Modifier.padding(8.dp)) {
-            InfoBitCard(topString = "Primary", bottomString = exercise.primary[0])
-        }
-        // Secondary
-        // TODO: Values in the Array to formatted String
-        InfoBitCard(topString = "Secondary", bottomString = exercise.secondary[0] )
 
-        //Equipment
-        // TODO: Values in the Array to formatted String
-        InfoBitCard(topString = "Equipment", bottomString = exercise.equipment[0])
+            //Primary
+            InfoBitText(topString = "PRIMARY", bottomString = "deltoid, latissimus dorsi")
 
+            Divider(
+                color = Color.Black,
+                modifier = Modifier
+                    .fillMaxHeight()  //fill the max height
+                    .width(1.dp)
+            )
+
+            //Secondary
+            val secondaries = arrayOf("glutaeus maximus, quadriceps, gastrocnemius, soleus")
+            InfoBitText(topString = "SECONDARY", bottomString = "glutaeus maximus, quadriceps, gastrocnemius, soleus")
+            // Equipment
+            // TODO: Implement `Equipment` someday lol
+//            InfoBitText(topString = "EQUIPMENT", bottomString = "smith machine")
+
+        }
     }
 }
 
