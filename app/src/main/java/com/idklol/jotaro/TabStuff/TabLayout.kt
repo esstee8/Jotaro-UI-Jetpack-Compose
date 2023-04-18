@@ -77,6 +77,6 @@ fun TabLayout() {
         // for displaying our page for each tab layout
         TabsContent(pagerState = pagerState) // TAB CONTENT
 
-        // TODO: Can put a bottom bar here?
+        // TODO: Can I put a '+' sign to add to the `Exercises` and `Workouts`
     }
 }

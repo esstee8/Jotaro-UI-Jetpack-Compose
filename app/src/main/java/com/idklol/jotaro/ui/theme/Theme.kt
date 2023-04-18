@@ -7,7 +7,7 @@ import androidx.compose.material.lightColors
 import androidx.compose.runtime.Composable
 
 private val DarkColorPalette = darkColors(
-    primary = jotaroYellow,
+    primary = babyBlue,
     primaryVariant = jotaroIntenseBlue,
     secondary = jotaroDarkIntenseBlue
 )

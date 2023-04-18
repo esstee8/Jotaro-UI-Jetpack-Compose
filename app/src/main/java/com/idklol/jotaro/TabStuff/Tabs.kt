@@ -16,7 +16,7 @@ import kotlinx.coroutines.launch
 
 // on below line we are
 // creating a function for tabs
-@ExperimentalPagerApi
+@OptIn(ExperimentalPagerApi::class)
 @Composable
 fun Tabs(pagerState: PagerState) {
     // in this function we are creating a list

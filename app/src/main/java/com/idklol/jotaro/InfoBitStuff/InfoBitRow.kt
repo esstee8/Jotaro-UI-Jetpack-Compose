@@ -1,52 +1,46 @@
 package com.idklol.jotaro.ExerciseTabStuff
 
-import androidx.compose.foundation.background
-import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.material.Card
-import androidx.compose.material.Divider
-import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
-import androidx.compose.ui.unit.dp
 import com.idklol.jotaro.Exercise
 
 @Composable
 // TODO: Can we optimize this by only passing in necessary pieces of info?
 // Given an `Exercise` object, creates a row w/various info bits, horizontally
 fun InfoBitRow(exercise: Exercise) {
-    Card(modifier = Modifier){
+    Card(
+            modifier = Modifier
+    ){
         Row(
-            horizontalArrangement = Arrangement.SpaceAround
+            modifier = Modifier.fillMaxWidth(),
+            horizontalArrangement = Arrangement.Center
         ) {
-            // TODO : GENERALIZE THIS DON'T LEAVE THE EXAMPLES INSIDE
             //Type
-            InfoBitText(topString = "TYPE", bottomString = "isolation")
+            InfoBitText(topString = "TYPE", bottomString = exercise.type)
 
-            Divider(
-                color = Color.Black,
-                modifier = Modifier
-                    .fillMaxHeight()  //fill the max height
-                    .width(1.dp)
-            )
+
 
             //Primary
-            InfoBitText(topString = "PRIMARY", bottomString = "deltoid, latissimus dorsi")
+            val primaries = exercise.primary.joinToString("\n") { it } // Convert Array<String> to single String
+            InfoBitText(topString = "PRIMARY", bottomString = primaries)
 
-            Divider(
-                color = Color.Black,
-                modifier = Modifier
-                    .fillMaxHeight()  //fill the max height
-                    .width(1.dp)
-            )
+
 
             //Secondary
-            val secondaries = arrayOf("glutaeus maximus, quadriceps, gastrocnemius, soleus")
-            InfoBitText(topString = "SECONDARY", bottomString = "glutaeus maximus, quadriceps, gastrocnemius, soleus")
-            // Equipment
-            // TODO: Implement `Equipment` someday lol
-//            InfoBitText(topString = "EQUIPMENT", bottomString = "smith machine")
+            // Convert Array<String> to String, and append a \n between each element in the list
+            var secondaries = exercise.secondary.joinToString("\n") { it  }
+            if (secondaries.isEmpty()) { secondaries = "(N/A)" }
+
+            InfoBitText(topString = "SECONDARY", bottomString = secondaries)
+            // Equipment ----
+            var equipments = exercise.equipment.joinToString("\n") { it }
+            if (equipments.isEmpty()) {equipments = "(N/A)"}
+            InfoBitText(topString = "EQUIPMENT", bottomString = equipments)
 
         }
     }

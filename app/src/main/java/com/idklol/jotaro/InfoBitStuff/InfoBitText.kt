@@ -22,27 +22,29 @@ import com.idklol.jotaro.ui.theme.ArvoFamily
 //       Bottom Stuff
 fun InfoBitText(topString: String, bottomString: String) {
     Column(
-        modifier = Modifier.padding(8.dp), // Pad between the Card and the Text via the Column
+        modifier = Modifier.padding(7.dp), // Pad between the Card and the Text via the Column
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         Text(
             textAlign = TextAlign.Center,
             text = "" + topString,
             fontFamily = ArvoFamily, // Import the family, select the weight type
-            fontSize = 12.sp,
+            fontSize = 10.sp,
             fontWeight = FontWeight.Bold,
             letterSpacing = 0.15.sp, // Reduce kerning
             maxLines = 1,
-//            overflow = TextOverflow.Ellipsis // Example: TOP ROW OVERFL...
+            overflow = TextOverflow.Ellipsis // Example: TOP ROW OVERFL...
         )
+        // TODO: How to stop `EQUIPMENT` title from overflowing?
         Spacer(modifier = Modifier.height(2.dp)) // Pad between topString and bottomString
         Text(
+            textAlign = TextAlign.Center,
             text = bottomString,
             fontFamily = ArvoFamily,
-            fontSize = 8.sp,
+            fontSize = 9.sp,
             fontWeight = FontWeight.Normal,
             letterSpacing = 0.15.sp,
-            maxLines = 2,
+            maxLines = 3,
             overflow = TextOverflow.Ellipsis
         )
     }
