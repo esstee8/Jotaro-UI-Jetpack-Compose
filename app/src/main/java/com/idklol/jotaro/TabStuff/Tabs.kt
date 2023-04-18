@@ -40,7 +40,7 @@ fun Tabs(pagerState: PagerState) {
 
         // on below line we are
         // specifying background color.
-        backgroundColor = jotaroColor,
+        backgroundColor = com.idklol.jotaro.ui.theme.babyBlue,
 
         // on below line we are specifying content color.
         contentColor = Color.White,
@@ -50,7 +50,7 @@ fun Tabs(pagerState: PagerState) {
         indicator = { tabPositions ->
             // on below line we are specifying the styling
             // for tab indicator by specifying height
-            // and color for the tab indicator.
+            // and color for the tab indicator
             TabRowDefaults.Indicator(
                 Modifier.pagerTabIndicatorOffset(pagerState, tabPositions),
                 height = 2.dp,

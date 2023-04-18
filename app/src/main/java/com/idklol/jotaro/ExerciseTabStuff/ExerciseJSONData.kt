@@ -17,7 +17,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "secondary": [],
         "equipment": [
-            "body"
+            "Body"
         ],
         "steps": [
             "An exercise to either build or warm-up front & back neck muscles",
@@ -49,7 +49,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "secondary": [],
         "equipment": [
-            "body"
+            "Body"
         ],
         "steps": [
             "St& or sit with your head in neutral position",
@@ -110,8 +110,8 @@ data class ExerciseJSONData(val unimportantString: String) {
             "Triceps Brachii"
         ],
         "equipment": [
-            "barbell",
-            "bench"
+            "Barbell",
+            "Bench"
         ],
         "steps": [
             "Sit on the bench with your toes pointing straight out, back straight & abs drawn in",
@@ -144,7 +144,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "secondary": [],
         "equipment": [
-            "dumbbell"
+            "Dumbbell"
         ],
         "steps": [
             "St& with your feet shoulder width apart & a slight bend in your knees",
@@ -179,7 +179,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "Triceps Brachii"
         ],
         "equipment": [
-            "dumbbells"
+            "Dumbbells"
         ],
         "steps": [
             "Sit on a flat bench, feet point forward with your abs drawn in",
@@ -211,7 +211,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "forarm"
         ],
         "equipment": [
-            "barbell"
+            "Barbell"
         ],
         "steps": [
             "Grasp a barbell with an overh& grip(palms of h&s face downwards) ",
@@ -314,7 +314,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "Pectoralis Major"
         ],
         "equipment": [
-            "dumbbell"
+            "Dumbbell"
         ],
         "steps": [
             "St& with your feet shoulder width apart, abs drawn in & knees slightly bent",
@@ -345,7 +345,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "Pectoralis Major"
         ],
         "equipment": [
-            "barbell"
+            "Barbell"
         ],
         "steps": [
             "Sitting on a bench with a barbell rack, grasp the barbell with a grip 3 to 4 inches wider than your shoulders",
@@ -374,7 +374,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "Pectoralis Major"
         ],
         "equipment": [
-            "dumbbell"
+            "Dumbbell"
         ],
         "steps": [
             "Sitting on a bench, with your abs drawn in grasp a dumbbell in each h&, with your palms facing forward",
@@ -403,7 +403,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "upper back"
         ],
         "equipment": [
-            "smith machine"
+            "Smith Machine"
         ],
         "steps": [
             "St& with your feet shoulder width apart & your abs drawn in",
@@ -439,7 +439,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "upper back"
         ],
         "equipment": [
-            "barbell"
+            "Barbell"
         ],
         "steps": [
             "St& with your feet shoulder width apart, your abs drawn in & back straight",
@@ -513,7 +513,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "upper back"
         ],
         "equipment": [
-            "dumbbells"
+            "Dumbbells"
         ],
         "steps": [
             "Grasp a dumbbell in each h& with an overh& grip (palms facing downwards) & hold them in front of your thighs",
@@ -549,7 +549,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "secondary": [
             "Trapezius",
-            "latissimus dorsi"
+            "Latissimus Dorsi"
         ],
         "equipment": [
             "cable"
@@ -589,7 +589,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "forearm"
         ],
         "equipment": [
-            "dumbbells"
+            "Dumbbells"
         ],
         "steps": [
             "Grasp a dumbbell in each h&, palms facing inward towards your body & the dumbbells at your sides",
@@ -660,7 +660,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "secondary": [
             "Triceps Brachii",
-            "latissimus dorsi"
+            "Latissimus Dorsi"
         ],
         "equipment": [
             "exercise band"
@@ -697,7 +697,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "secondary": [],
         "equipment": [
-            "body"
+            "Body"
         ],
         "steps": [
             "Lie on a flat bench with your h&s under your hips supporting your back",
@@ -735,7 +735,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "biceps brachii"
         ],
         "equipment": [
-            "smith machine"
+            "Smith Machine"
         ],
         "steps": [
             "An exercise for rear deltoid,shoulder, biceps & back strengthening",
@@ -772,7 +772,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         "secondary": [],
         "equipment": [
             "flat bench",
-            "dumbbells"
+            "Dumbbells"
         ],
         "steps": [
             "Place the dumbbells at he head of the bench",
@@ -807,7 +807,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "Trapezius"
         ],
         "equipment": [
-            "dumbbell"
+            "Dumbbell"
         ],
         "steps": [
             "Place your right foot on the floor, rest your left knee & h& on a flat bench",
@@ -838,7 +838,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         "primer": "An exercise for middle back, biceps & lower back strengthening",
         "type": "Compound",
         "primary": [
-            "latissimus dorsi"
+            "Latissimus Dorsi"
         ],
         "secondary": [
             "biceps brachii",
@@ -874,13 +874,13 @@ data class ExerciseJSONData(val unimportantString: String) {
         "primer": "An exercise for middle back & biceps strengthening",
         "type": "Isolation",
         "primary": [
-            "latissimus dorsi"
+            "Latissimus Dorsi"
         ],
         "secondary": [
             "biceps brachii"
         ],
         "equipment": [
-            "barbell"
+            "Barbell"
         ],
         "steps": [
             "Bend over a barbell at slight angle with your knees bent & your back straight",
@@ -915,7 +915,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "core"
         ],
         "equipment": [
-            "body"
+            "Body"
         ],
         "steps": [
             "Get down on a mat on your h&s & knees, forming a four point rectangle or square shape",
@@ -950,7 +950,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "biceps brachii"
         ],
         "equipment": [
-            "barbell"
+            "Barbell"
         ],
         "steps": [
             "Place a barbell on the floor in front of you with the resided weights attached",
@@ -978,7 +978,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         "primer": "An exercise for middle back, biceps & shoulder strengthening",
         "type": "Isolation",
         "primary": [
-            "latissimus dorsi"
+            "Latissimus Dorsi"
         ],
         "secondary": [
             "biceps brachii",
@@ -1019,7 +1019,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "secondary": [],
         "equipment": [
-            "barbell"
+            "Barbell"
         ],
         "steps": [
             "St& on the floor with your abs drawn in & your back straight",
@@ -1053,7 +1053,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "secondary": [],
         "equipment": [
-            "dumbbell"
+            "Dumbbell"
         ],
         "steps": [
             "Lie down on an incline bench with your feet flat on the floor & grasp the dumbbells",
@@ -1083,7 +1083,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "secondary": [],
         "equipment": [
-            "dumbbells"
+            "Dumbbells"
         ],
         "steps": [
             "Rest your forehead on an incline bench in oder to stabilise your movements so you are bent over with your back parallel to the floor, draw your abs in",
@@ -1116,7 +1116,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "secondary": [],
         "equipment": [
-            "dumbbells"
+            "Dumbbells"
         ],
         "steps": [
             "St& with a dumbbell in each h& with an overh& grip, your feet shoulder width apart & your abs drawn in",
@@ -1212,7 +1212,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "secondary": [],
         "equipment": [
-            "dumbbell",
+            "Dumbbell",
             "flat bench"
         ],
         "steps": [
@@ -1250,7 +1250,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "biceps brachii"
         ],
         "equipment": [
-            "dumbbell"
+            "Dumbbell"
         ],
         "steps": [
             "St& with your feet shoulder width apart, back straight & abs drawn in",
@@ -1283,7 +1283,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "Trapezius"
         ],
         "equipment": [
-            "dumbbell"
+            "Dumbbell"
         ],
         "steps": [
             "St& near a post or other stable tall object. With your one h&, hold the post",
@@ -1316,7 +1316,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "biceps brachii"
         ],
         "equipment": [
-            "dumbbells"
+            "Dumbbells"
         ],
         "steps": [
             "St& upright with your feet shoulder width apart & a slight bend in your knees",
@@ -1341,7 +1341,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "secondary": [],
         "equipment": [
-            "smith machine"
+            "Smith Machine"
         ],
         "steps": [
             "Place the barbell at waist height",
@@ -1375,8 +1375,8 @@ data class ExerciseJSONData(val unimportantString: String) {
             "deltoideus (clavicula)"
         ],
         "equipment": [
-            "bench",
-            "barbell"
+            "Bench",
+            "Barbell"
         ],
         "steps": [
             "Lie on a flat bench with your feet flat on the floor, keep your back flat on the bench",
@@ -1413,7 +1413,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "equipment": [
             "bench (Incline)",
-            "barbell"
+            "Barbell"
         ],
         "steps": [
             "Lie flat on an incline bench set at a 45 degree angle, with your feet shoulder width apart",
@@ -1480,12 +1480,12 @@ data class ExerciseJSONData(val unimportantString: String) {
             "Pectoralis Major"
         ],
         "secondary": [
-            "latissimus dorsi",
+            "Latissimus Dorsi",
             "Deltoid",
             "Triceps Brachii"
         ],
         "equipment": [
-            "barbell",
+            "Barbell",
             "flat bench"
         ],
         "steps": [
@@ -1518,11 +1518,11 @@ data class ExerciseJSONData(val unimportantString: String) {
         "secondary": [
             "Deltoid",
             "Triceps Brachii",
-            "latissimus dorsi"
+            "Latissimus Dorsi"
         ],
         "equipment": [
             "flat bench",
-            "dumbbell"
+            "Dumbbell"
         ],
         "steps": [
             "Lie flat on a bench with your head hanging slightly over the end & your feet flat on the floor",
@@ -1615,7 +1615,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "Deltoid"
         ],
         "equipment": [
-            "barbell"
+            "Barbell"
         ],
         "steps": [
             "Lie on a flat bench with your feet flat on the floor, keep your back flat on the bench",
@@ -1688,7 +1688,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "equipment": [
             "bench: decline",
-            "barbell"
+            "Barbell"
         ],
         "steps": [
             "Lie on a decline bench with your head lower than your feet",
@@ -1723,7 +1723,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "Deltoid"
         ],
         "equipment": [
-            "dumbbells",
+            "Dumbbells",
             "bench: decline"
         ],
         "steps": [
@@ -1756,7 +1756,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "Deltoid"
         ],
         "equipment": [
-            "dumbbells",
+            "Dumbbells",
             "bench: decline"
         ],
         "steps": [
@@ -1791,7 +1791,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "Deltoid"
         ],
         "equipment": [
-            "body",
+            "Body",
             "parallel bars"
         ],
         "steps": [
@@ -1828,7 +1828,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "Triceps Brachii"
         ],
         "equipment": [
-            "dumbbells",
+            "Dumbbells",
             "flat bench"
         ],
         "steps": [
@@ -1867,7 +1867,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "equipment": [
             "flat bench",
-            "dumbbells"
+            "Dumbbells"
         ],
         "steps": [
             "Lie on a flat bench with a dumbbell in each h& & your feet firmly on the ground",
@@ -1939,7 +1939,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "Deltoid"
         ],
         "equipment": [
-            "barbell",
+            "Barbell",
             "flat bench"
         ],
         "steps": [
@@ -1973,7 +1973,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "Triceps Brachii"
         ],
         "equipment": [
-            "dumbbells",
+            "Dumbbells",
             "bench (Incline)"
         ],
         "steps": [
@@ -2043,7 +2043,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "Deltoid"
         ],
         "equipment": [
-            "dumbbells",
+            "Dumbbells",
             "bench (Incline)"
         ],
         "steps": [
@@ -2078,7 +2078,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "equipment": [
             "bench (Incline)",
-            "dumbbells"
+            "Dumbbells"
         ],
         "steps": [
             "Lie on an incline bench set a 45 degree angle with a dumbbell in each h& & your feet firmly on the ground",
@@ -2113,7 +2113,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "equipment": [
             "bench (Incline)",
-            "dumbbells"
+            "Dumbbells"
         ],
         "steps": [
             "Lie on an incline bench set at a 45 degree angle with a dumbbell in each h& & your feet flat on the ground",
@@ -2147,7 +2147,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         "secondary": [],
         "equipment": [
             "bench: decline",
-            "barbell"
+            "Barbell"
         ],
         "steps": [
             "Lie on a decline bench with your feet higher than your head & your feet firmly on the ground",
@@ -2214,7 +2214,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "biceps brachii"
         ],
         "equipment": [
-            "barbell",
+            "Barbell",
             "flat bench"
         ],
         "steps": [
@@ -2253,7 +2253,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "equipment": [
             "flat bench",
-            "dumbbell"
+            "Dumbbell"
         ],
         "steps": [
             "Lie flat on a bench with your feet placed firmly on the floor & your abs drawn in",
@@ -2328,7 +2328,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "Triceps Brachii"
         ],
         "equipment": [
-            "barbell"
+            "Barbell"
         ],
         "steps": [
             "Lie flat on your back with your knees bent & your feet firmly on the floor",
@@ -2360,7 +2360,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         "secondary": [],
         "equipment": [
             "flat bench",
-            "dumbbell"
+            "Dumbbell"
         ],
         "steps": [
             "Lie on a flat bench with your free h& holding the bench",
@@ -2431,7 +2431,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "core"
         ],
         "equipment": [
-            "body"
+            "Body"
         ],
         "steps": [
             "For a Close Grip Push Up lay face down on the floor, or a mat, with your feet together curled slightly so you rise on the ball of your feet",
@@ -2461,8 +2461,8 @@ data class ExerciseJSONData(val unimportantString: String) {
             "Triceps Brachii"
         ],
         "equipment": [
-            "body",
-            "bench"
+            "Body",
+            "Bench"
         ],
         "steps": [
             "Place your feet on a bench at least 18” off the ground",
@@ -2496,7 +2496,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "Deltoid"
         ],
         "equipment": [
-            "body",
+            "Body",
             "exercise ball"
         ],
         "steps": [
@@ -2530,7 +2530,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "Deltoid"
         ],
         "equipment": [
-            "body"
+            "Body"
         ],
         "steps": [
             "Start with a basic push up, lay face down on the floor, or a mat; with your feet together curled slightly so you rise onto the ball of your feet",
@@ -2567,7 +2567,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "equipment": [
             "flat bench",
-            "smith machine"
+            "Smith Machine"
         ],
         "steps": [
             "Place a flat bench in the middle of the Smith Machine, with the bar in line with the middle of your chest",
@@ -2600,12 +2600,12 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "secondary": [
             "Triceps Brachii",
-            "latissimus dorsi",
+            "Latissimus Dorsi",
             "Deltoid"
         ],
         "equipment": [
             "flat bench",
-            "dumbbell"
+            "Dumbbell"
         ],
         "steps": [
             "Lie on a flat bench with your feet flat on the floor & your head at the end of the bench",
@@ -2639,7 +2639,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "Deltoid"
         ],
         "equipment": [
-            "dumbbells",
+            "Dumbbells",
             "bench (Incline)"
         ],
         "steps": [
@@ -2674,7 +2674,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "Triceps Brachii"
         ],
         "equipment": [
-            "smith machine",
+            "Smith Machine",
             "bench (Incline)"
         ],
         "steps": [
@@ -2712,7 +2712,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "equipment": [
             "flat bench",
-            "barbell"
+            "Barbell"
         ],
         "steps": [
             "Lie flat on a bench with your feet flat on the floor",
@@ -2749,7 +2749,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "Deltoid"
         ],
         "equipment": [
-            "barbell",
+            "Barbell",
             "bench: decline"
         ],
         "steps": [
@@ -2871,7 +2871,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         "primer": "An exercise in lats, biceps & middle back strengthening",
         "type": "Isolation",
         "primary": [
-            "latissimus dorsi"
+            "Latissimus Dorsi"
         ],
         "secondary": [
             "biceps brachii"
@@ -2906,13 +2906,13 @@ data class ExerciseJSONData(val unimportantString: String) {
         "primer": "An exercise for lats, biceps & middle back strengthening; which is similar t the basic chin up but focusses more on lats",
         "type": "Isolation",
         "primary": [
-            "latissimus dorsi"
+            "Latissimus Dorsi"
         ],
         "secondary": [
             "biceps brachii"
         ],
         "equipment": [
-            "body",
+            "Body",
             "bar"
         ],
         "steps": [
@@ -2937,13 +2937,13 @@ data class ExerciseJSONData(val unimportantString: String) {
         "primer": "An extremely good exercise for upper arm & middle back strengthening",
         "type": "Isolation",
         "primary": [
-            "latissimus dorsi"
+            "Latissimus Dorsi"
         ],
         "secondary": [
             "biceps brachii"
         ],
         "equipment": [
-            "body",
+            "Body",
             "bar"
         ],
         "steps": [
@@ -2967,7 +2967,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         "type": "Isolation",
         "primary": [
             "Deltoid",
-            "latissimus dorsi"
+            "Latissimus Dorsi"
         ],
         "secondary": [
             "back",
@@ -2975,7 +2975,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "equipment": [
             "bar",
-            "body"
+            "Body"
         ],
         "steps": [
             "Grasp the bar with an supinated (overh&) grip so that your palms are facing",
@@ -3011,7 +3011,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "biceps brachii"
         ],
         "equipment": [
-            "body",
+            "Body",
             "pull-up bar"
         ],
         "steps": [
@@ -3041,7 +3041,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         "primer": "This exercise for strengthening the Lats & also works the Triceps",
         "type": "Isolation",
         "primary": [
-            "latissimus dorsi"
+            "Latissimus Dorsi"
         ],
         "secondary": [
             "Triceps Brachii"
@@ -3073,7 +3073,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         "primer": "An exercise for lats & biceps strengthening",
         "type": "Isolation",
         "primary": [
-            "latissimus dorsi"
+            "Latissimus Dorsi"
         ],
         "secondary": [
             "biceps brachii"
@@ -3105,14 +3105,14 @@ data class ExerciseJSONData(val unimportantString: String) {
         "primer": "An exercise for lats, triceps & shoulder strengthening",
         "type": "Isolation",
         "primary": [
-            "latissimus dorsi"
+            "Latissimus Dorsi"
         ],
         "secondary": [
             "Triceps Brachii",
             "Deltoid"
         ],
         "equipment": [
-            "body",
+            "Body",
             "exercise band"
         ],
         "steps": [
@@ -3139,7 +3139,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         "primer": "An exercise for lats & biceps strengthening",
         "type": "Isolation",
         "primary": [
-            "latissimus dorsi"
+            "Latissimus Dorsi"
         ],
         "secondary": [
             "biceps brachii"
@@ -3171,7 +3171,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         "primer": "An exercise for lats, biceps & middle back strengthening",
         "type": "Isolation",
         "primary": [
-            "latissimus dorsi"
+            "Latissimus Dorsi"
         ],
         "secondary": [
             "biceps brachii"
@@ -3204,11 +3204,11 @@ data class ExerciseJSONData(val unimportantString: String) {
         "primer": "An exercise for lats, biceps & middle back strengthening",
         "type": "Isolation",
         "primary": [
-            "latissimus dorsi"
+            "Latissimus Dorsi"
         ],
         "secondary": [
             "biceps brachii",
-            "latissimus dorsi"
+            "Latissimus Dorsi"
         ],
         "equipment": [
             "cable",
@@ -3243,7 +3243,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "equipment": [
             "exercise ball",
-            "dumbbell"
+            "Dumbbell"
         ],
         "steps": [
             "Grasp a Barbell or Dumbbell & sit on a Ball with your feet firmly placed on the floor",
@@ -3279,7 +3279,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "soleus"
         ],
         "equipment": [
-            "barbell"
+            "Barbell"
         ],
         "steps": [
             "St& with your feet shoulder width apart so that your feet are under the bar",
@@ -3318,7 +3318,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "soleus"
         ],
         "equipment": [
-            "smith machine"
+            "Smith Machine"
         ],
         "steps": [
             "St& with your feet shoulder width apart so that your feet are under the bar",
@@ -3351,7 +3351,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "ischiocrural muscles"
         ],
         "equipment": [
-            "barbell"
+            "Barbell"
         ],
         "steps": [
             "Place a barbell across your shoulders",
@@ -3383,7 +3383,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "ischiocrural muscles"
         ],
         "equipment": [
-            "smith machine"
+            "Smith Machine"
         ],
         "steps": [
             "Place a barbell across your shoulders",
@@ -3481,7 +3481,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "core"
         ],
         "equipment": [
-            "body"
+            "Body"
         ],
         "steps": [
             "Lie flat on your stomach with your arms stretched out in front of you",
@@ -3515,7 +3515,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "ischiocrural muscles"
         ],
         "equipment": [
-            "dumbbells"
+            "Dumbbells"
         ],
         "steps": [
             "Grasp 2 dumbbells & st& with your feet shoulder width apart",
@@ -3552,7 +3552,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "core"
         ],
         "equipment": [
-            "body"
+            "Body"
         ],
         "steps": [
             "Lie on your back with your knees bent & your feet flat on the floor",
@@ -3582,7 +3582,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "ischiocrural muscles"
         ],
         "equipment": [
-            "body"
+            "Body"
         ],
         "steps": [
             "Using a post or tall weight bench for balance st& straight with your abs drawn in",
@@ -3644,7 +3644,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "secondary": [],
         "equipment": [
-            "body"
+            "Body"
         ],
         "steps": [
             "Lay on one side of your body with your legs straight & your forearm perpendicular to your body in front of you",
@@ -3679,7 +3679,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "soleus"
         ],
         "equipment": [
-            "barbell"
+            "Barbell"
         ],
         "steps": [
             "Start by placing a barbell across your upper back, using a grip slightly wider than your shoulders",
@@ -3718,7 +3718,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "soleus"
         ],
         "equipment": [
-            "dumbbells"
+            "Dumbbells"
         ],
         "steps": [
             "Grasp a dumbbell in each h&",
@@ -3820,7 +3820,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "glutaeus maximus"
         ],
         "equipment": [
-            "barbell"
+            "Barbell"
         ],
         "steps": [
             "Place a barbell in front of your feet on the ground",
@@ -3917,7 +3917,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "soleus"
         ],
         "equipment": [
-            "dumbbell"
+            "Dumbbell"
         ],
         "steps": [
             "Start by grasping a dumbbell in each h&",
@@ -3953,7 +3953,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "ischiocrural muscles"
         ],
         "equipment": [
-            "barbell"
+            "Barbell"
         ],
         "steps": [
             "An exercise for leg strengthening, mainly the quadriceps",
@@ -4027,7 +4027,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "ischiocrural muscles"
         ],
         "equipment": [
-            "smith machine"
+            "Smith Machine"
         ],
         "steps": [
             "This exercise uses the Smith Machine to work the Quadriceps, Hamstrings, Calves & Glutes. A great overall exercise for the lower body. There are many variations on the squat, this is the original version using a Smith Machine for better flow of movement",
@@ -4062,7 +4062,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "ischiocrural muscles"
         ],
         "equipment": [
-            "barbell"
+            "Barbell"
         ],
         "steps": [
             "Another variation of the basic Squat that focuses primarily on the quadriceps or thigh muscles",
@@ -4097,7 +4097,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "glutaeus maximus"
         ],
         "equipment": [
-            "smith machine"
+            "Smith Machine"
         ],
         "steps": [
             "Another variation of the basic Squat that focuses primarily on the quadriceps, or thigh muscles, while using the Smith Machine",
@@ -4172,7 +4172,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "ischiocrural muscles"
         ],
         "equipment": [
-            "barbell"
+            "Barbell"
         ],
         "steps": [
             "Place a barbell on a rack at chest height",
@@ -4210,7 +4210,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "hip abductors"
         ],
         "equipment": [
-            "dumbbells"
+            "Dumbbells"
         ],
         "steps": [
             "An advanced version of a lunge",
@@ -4246,7 +4246,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "soleus"
         ],
         "equipment": [
-            "dumbbells"
+            "Dumbbells"
         ],
         "steps": [
             "This is a great overall exercise for the lower body that uses dumbbells instead of a barbell. Beginners may find this version easier to perform",
@@ -4282,7 +4282,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "ischiocrural muscles"
         ],
         "equipment": [
-            "barbell"
+            "Barbell"
         ],
         "steps": [
             "Place a barbell on your shoulders & grasp it with a wide grip",
@@ -4316,7 +4316,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "ischiocrural muscles"
         ],
         "equipment": [
-            "barbell"
+            "Barbell"
         ],
         "steps": [
             "An advanced exercise & modification of the basic squat. Mastery of the squat is recommended before attempting this exercise",
@@ -4353,8 +4353,8 @@ data class ExerciseJSONData(val unimportantString: String) {
             "ischiocrural muscles"
         ],
         "equipment": [
-            "barbell",
-            "bench"
+            "Barbell",
+            "Bench"
         ],
         "steps": [
             "This is s great overall exercise for the lower body. There are many variations on the squat, this one uses a bench to remind you how far down to squat",
@@ -4392,7 +4392,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "soleus"
         ],
         "equipment": [
-            "barbell"
+            "Barbell"
         ],
         "steps": [
             "Place a bench, box or step in front of you",
@@ -4461,8 +4461,8 @@ data class ExerciseJSONData(val unimportantString: String) {
             "glutaeus maximus"
         ],
         "equipment": [
-            "dumbbell",
-            "bench"
+            "Dumbbell",
+            "Bench"
         ],
         "steps": [
             "This is a great overall exercise for the lower body. There are many variations on the squat, this one uses a bench to remind you how far down to squat",
@@ -4500,7 +4500,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "ischiocrural muscles"
         ],
         "equipment": [
-            "dumbbells"
+            "Dumbbells"
         ],
         "steps": [
             "Place a bench, box or step in front of you",
@@ -4536,7 +4536,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "soleus"
         ],
         "equipment": [
-            "barbell"
+            "Barbell"
         ],
         "steps": [
             "The Front Squat works the same muscles as the rear squat without placing the weight of the bar on your shoulders. This exercise can be a good substitute for people with back & neck injuries",
@@ -4572,7 +4572,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "soleus"
         ],
         "equipment": [
-            "barbell"
+            "Barbell"
         ],
         "steps": [
             "The Front Squat works the same muscles as the rear squat without placing the weight of the bar on your shoulders. This exercise can be a good substitute for people with back & neck injuries. By using a bench you remind yourself how far to squat down",
@@ -4612,7 +4612,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "ischiocrural muscles"
         ],
         "equipment": [
-            "dumbbells"
+            "Dumbbells"
         ],
         "steps": [
             "With a dumbbell in each h&, st& in a low squat stance, your feet shoulder width arms held out in front of you with your palms facing in",
@@ -4641,7 +4641,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "secondary": [],
         "equipment": [
-            "barbell"
+            "Barbell"
         ],
         "steps": [
             "This is a rarely used exercise which is without question one of the best exercises for building & shaping the inner thighs",
@@ -4815,7 +4815,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "ischiocrural muscles"
         ],
         "equipment": [
-            "barbell"
+            "Barbell"
         ],
         "steps": [
             "A great overall exercise for the lower body. This version of the Squat targets & defines more of the externals leg muscles",
@@ -4853,7 +4853,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "glutaeus maximus"
         ],
         "equipment": [
-            "barbell"
+            "Barbell"
         ],
         "steps": [
             "The One Leg Squat isolates the muscles of the leg for optimal exercise. This exercise is also used to build or rebuild strength after injury",
@@ -4896,7 +4896,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "soleus"
         ],
         "equipment": [
-            "barbell"
+            "Barbell"
         ],
         "steps": [
             "An advanced exercise that works most of the muscles of the body",
@@ -4935,7 +4935,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "ischiocrural muscles"
         ],
         "equipment": [
-            "barbell"
+            "Barbell"
         ],
         "steps": [
             "An advanced exercise that works most of the muscles of the body. Exercises like this are used to develop functional strength for sports that require strong h&s",
@@ -4974,7 +4974,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "erector spinae"
         ],
         "equipment": [
-            "barbell"
+            "Barbell"
         ],
         "steps": [
             "St& with your feet a bit wider than shoulder width apart with your toes pointed slightly outward",
@@ -5009,7 +5009,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "soleus"
         ],
         "equipment": [
-            "dumbbell"
+            "Dumbbell"
         ],
         "steps": [
             "St& with your feet 2-4 inches wider than your shoulders, with your toes pointed out at a 45 degree angle",
@@ -5046,7 +5046,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "ischiocrural muscles"
         ],
         "equipment": [
-            "barbell"
+            "Barbell"
         ],
         "steps": [
             "This version of the squat uses an empty barbell & moves at a faster pace than the st&ard squat. This is a good exercise for building speed & conditioning used in running & jumping sports",
@@ -5213,7 +5213,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "ischiocrural muscles"
         ],
         "equipment": [
-            "barbell"
+            "Barbell"
         ],
         "steps": [
             "Lifting a barbell off of a weight rack, position it on your shoulders",
@@ -5250,7 +5250,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "soleus"
         ],
         "equipment": [
-            "barbell"
+            "Barbell"
         ],
         "steps": [
             "This variation of squat is similar to a Front Squat, it works to build the upper muscles of the quadriceps (thighs)",
@@ -5285,7 +5285,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "Pectoralis Major"
         ],
         "equipment": [
-            "body"
+            "Body"
         ],
         "steps": [
             "This exercise is one of the most basic & still one of the best for building the triceps (muscles on the back of the arm)",
@@ -5450,7 +5450,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "Pectoralis Major"
         ],
         "equipment": [
-            "barbell"
+            "Barbell"
         ],
         "steps": [
             "Lay with your back on a flat bench",
@@ -5482,7 +5482,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "secondary": [],
         "equipment": [
-            "dumbbell"
+            "Dumbbell"
         ],
         "steps": [
             "Lay face up on a decline bench with a dumbbell in each h&",
@@ -5511,7 +5511,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "secondary": [],
         "equipment": [
-            "barbell"
+            "Barbell"
         ],
         "steps": [
             "Lay face up on a decline bench & grasp an EZ Bar (Curved Barbell)",
@@ -5574,7 +5574,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "Pectoralis Major"
         ],
         "equipment": [
-            "body"
+            "Body"
         ],
         "steps": [
             "Grasp a set of parallel bars & push yourself up to the starting position",
@@ -5604,7 +5604,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "secondary": [],
         "equipment": [
-            "dumbbell"
+            "Dumbbell"
         ],
         "steps": [
             "Sit on a bench with your back straight & your abs drawn in",
@@ -5634,7 +5634,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "secondary": [],
         "equipment": [
-            "barbell"
+            "Barbell"
         ],
         "steps": [
             "Grasp a barbell with a close grip (4-6 inches apart)",
@@ -5666,7 +5666,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "Deltoid"
         ],
         "equipment": [
-            "barbell"
+            "Barbell"
         ],
         "steps": [
             "This exercise is named after the inventor, J.M. Blakley. An advanced exercise used by bodybuilders & power lifters to build explosive power in the triceps muscle (back of the arms)",
@@ -5792,7 +5792,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "secondary": [],
         "equipment": [
-            "barbell"
+            "Barbell"
         ],
         "steps": [
             "You can use a barbell or EZ (curl) bar to further concentrate the benefit to your triceps",
@@ -5823,7 +5823,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "secondary": [],
         "equipment": [
-            "barbell"
+            "Barbell"
         ],
         "steps": [
             "Lie on a flat bench on your back, with your head at one end",
@@ -5854,7 +5854,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "secondary": [],
         "equipment": [
-            "dumbbell"
+            "Dumbbell"
         ],
         "steps": [
             "Lay on a flat bench with your head at one end & your feet planted firmly on the floor",
@@ -5885,7 +5885,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "secondary": [],
         "equipment": [
-            "dumbbell"
+            "Dumbbell"
         ],
         "steps": [
             "An advanced exercise & should be avoided by beginners",
@@ -5920,7 +5920,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "Pectoralis Major"
         ],
         "equipment": [
-            "barbell"
+            "Barbell"
         ],
         "steps": [
             "Lie on a flat bench with your head at one end",
@@ -5952,7 +5952,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "secondary": [],
         "equipment": [
-            "dumbbell"
+            "Dumbbell"
         ],
         "steps": [
             "Lie flat on a bench, on your back, with your head at one end",
@@ -5982,7 +5982,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "secondary": [],
         "equipment": [
-            "barbell"
+            "Barbell"
         ],
         "steps": [
             "Lie down on a bench, on your back, with your head at one end",
@@ -6012,7 +6012,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "secondary": [],
         "equipment": [
-            "dumbbell"
+            "Dumbbell"
         ],
         "steps": [
             "An advanced exercise to isolate & work the tricep (back of the arm) muscles",
@@ -6045,7 +6045,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "secondary": [],
         "equipment": [
-            "dumbbell"
+            "Dumbbell"
         ],
         "steps": [
             "Lie flat in a bench with your head at one end & your feet placed firmly on the floor",
@@ -6078,7 +6078,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "Pectoralis Major"
         ],
         "equipment": [
-            "body"
+            "Body"
         ],
         "steps": [
             "This version of the Pushup isolates the tricep (back of the arm) muscles",
@@ -6142,7 +6142,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "Pectoralis Major"
         ],
         "equipment": [
-            "barbell"
+            "Barbell"
         ],
         "steps": [
             "Lie on a flat bench with your head at one end & your feet placed firmly on the floor",
@@ -6172,7 +6172,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "secondary": [],
         "equipment": [
-            "dumbbell"
+            "Dumbbell"
         ],
         "steps": [
             "Sit on the edge of a bench with your feet flat on the floor",
@@ -6203,7 +6203,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "secondary": [],
         "equipment": [
-            "dumbbell"
+            "Dumbbell"
         ],
         "steps": [
             "Sit on the edge of a bench with your feet flat on the floor",
@@ -6234,7 +6234,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "secondary": [],
         "equipment": [
-            "barbell"
+            "Barbell"
         ],
         "steps": [
             "Sit on a short straight back chair with your feet firmly placed on the floor & your back straight",
@@ -6264,7 +6264,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "secondary": [],
         "equipment": [
-            "dumbbell"
+            "Dumbbell"
         ],
         "steps": [
             "Sit on a short, straight backed bench with your feet planted firmly on the floor",
@@ -6297,7 +6297,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "Pectoralis Major"
         ],
         "equipment": [
-            "smith machine"
+            "Smith Machine"
         ],
         "steps": [
             "Place a flat bench in the middle of a Smith Machine",
@@ -6326,7 +6326,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "secondary": [],
         "equipment": [
-            "dumbbell"
+            "Dumbbell"
         ],
         "steps": [
             "St& with your feet shoulder width apart, your abs drawn in & your back straight as you bend at the waist",
@@ -6356,7 +6356,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "secondary": [],
         "equipment": [
-            "dumbbell"
+            "Dumbbell"
         ],
         "steps": [
             "St& with your feet shoulder width apart, your abs drawn in & your back straight as you bend at the waist until your upper body is parallel to the floor",
@@ -6386,7 +6386,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "secondary": [],
         "equipment": [
-            "dumbbell"
+            "Dumbbell"
         ],
         "steps": [
             "St& with your feet shoulder width apart, your back straight & your abs drawn in",
@@ -6450,7 +6450,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "secondary": [],
         "equipment": [
-            "dumbbell"
+            "Dumbbell"
         ],
         "steps": [
             "St& with your feet shoulder width apart, your back straight & your abs drawn in",
@@ -6476,7 +6476,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "secondary": [],
         "equipment": [
-            "barbell"
+            "Barbell"
         ],
         "steps": [
             "St& with your feet shoulder width apart, your back straight & your abs drawn in",
@@ -6507,7 +6507,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "secondary": [],
         "equipment": [
-            "body",
+            "Body",
             "towel"
         ],
         "steps": [
@@ -6539,7 +6539,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "secondary": [],
         "equipment": [
-            "dumbbell"
+            "Dumbbell"
         ],
         "steps": [
             "Lay flat on a bench with your head at one end & your feet firmly planted on the floor",
@@ -6569,7 +6569,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "secondary": [],
         "equipment": [
-            "dumbbell"
+            "Dumbbell"
         ],
         "steps": [
             "St&ing along side a flat bench, bend your left knee & place it on the bench",
@@ -6735,7 +6735,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "Deltoid"
         ],
         "equipment": [
-            "dumbbell"
+            "Dumbbell"
         ],
         "steps": [
             "Grasp a dumbbell in each h& & lie against an incline bench, face up with your feet firmly planted on the floor",
@@ -6797,7 +6797,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "forearm"
         ],
         "equipment": [
-            "barbell"
+            "Barbell"
         ],
         "steps": [
             "This is a basic exercise for the biceps (arms)",
@@ -6866,7 +6866,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "forearm"
         ],
         "equipment": [
-            "dumbbell"
+            "Dumbbell"
         ],
         "steps": [
             "This exercise uses a hammering (up & down) motion to isolate the biceps",
@@ -6899,7 +6899,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "secondary": [],
         "equipment": [
-            "dumbbell"
+            "Dumbbell"
         ],
         "steps": [
             "Adjust an incline bench to a 45 degree angle",
@@ -6930,7 +6930,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "secondary": [],
         "equipment": [
-            "barbell"
+            "Barbell"
         ],
         "steps": [
             "This exercise uses an incline bench to change your body’s position as you perform Biceps Curls. The movement is very similar to a Preacher Curl",
@@ -7028,7 +7028,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "forearm"
         ],
         "equipment": [
-            "barbell"
+            "Barbell"
         ],
         "steps": [
             "St& with your feet shoulder width apart, your knees slightly bent & your abs drawn in",
@@ -7062,7 +7062,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "forearm"
         ],
         "equipment": [
-            "barbell"
+            "Barbell"
         ],
         "steps": [
             "St& with your feet shoulder width apart, your knees slightly bent & your abs drawn in",
@@ -7096,7 +7096,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "forearm"
         ],
         "equipment": [
-            "dumbbell"
+            "Dumbbell"
         ],
         "steps": [
             "Sit on the end of a flat bench with your feet flat & your legs spread apart",
@@ -7130,7 +7130,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "forearm"
         ],
         "equipment": [
-            "dumbbell"
+            "Dumbbell"
         ],
         "steps": [
             "While st&ing, grab a dumbbell in each arm with palms facing in",
@@ -7162,7 +7162,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "forearm"
         ],
         "equipment": [
-            "barbell"
+            "Barbell"
         ],
         "steps": [
             "This exercise is credited to the late Vince Gironda, the “Iron Guru”. It not only blasts the biceps & works the forearms as well",
@@ -7196,7 +7196,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "forearm"
         ],
         "equipment": [
-            "dumbbell"
+            "Dumbbell"
         ],
         "steps": [
             "Steps",
@@ -7231,7 +7231,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "forearm"
         ],
         "equipment": [
-            "dumbbell"
+            "Dumbbell"
         ],
         "steps": [
             "St& with our feet shoulder width apart, your knees slightly bent & your abs drawn in",
@@ -7263,7 +7263,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "secondary": [],
         "equipment": [
-            "dumbbell"
+            "Dumbbell"
         ],
         "steps": [
             "This exercise uses an incline bench to change your body’s position as you perform Biceps Curls. The movement is very similar to a Preacher Curl",
@@ -7298,7 +7298,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "forearm"
         ],
         "equipment": [
-            "barbell"
+            "Barbell"
         ],
         "steps": [
             "St& with your feet shoulder width apart & your knees slightly bent",
@@ -7329,7 +7329,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "secondary": [],
         "equipment": [
-            "dumbbell"
+            "Dumbbell"
         ],
         "steps": [
             "This exercise uses a hammering (up & down) motion to isolate the biceps",
@@ -7362,7 +7362,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "secondary": [],
         "equipment": [
-            "dumbbell"
+            "Dumbbell"
         ],
         "steps": [
             "Sit on an incline bench with your feet firmly on the floor in front of you",
@@ -7426,7 +7426,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "secondary": [],
         "equipment": [
-            "dumbbell"
+            "Dumbbell"
         ],
         "steps": [
             "This exercise uses an incline bench to change your body’s position as you perform Biceps Curls. The movement is very similar to a Preacher Curl",
@@ -7453,7 +7453,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "secondary": [],
         "equipment": [
-            "dumbbell"
+            "Dumbbell"
         ],
         "steps": [
             "This exercise uses an incline bench & twist to more to change your body’s position as you perform Biceps Curls. The movement is very similar to a Preacher Curl",
@@ -7550,7 +7550,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "secondary": [],
         "equipment": [
-            "barbell"
+            "Barbell"
         ],
         "steps": [
             "With this exercise your lay face down to isolate your biceps",
@@ -7581,7 +7581,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "secondary": [],
         "equipment": [
-            "dumbbell"
+            "Dumbbell"
         ],
         "steps": [
             "Another biceps exercise where you lay down to isolate the muscles you are working. An advanced exercise",
@@ -7647,7 +7647,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "forearm"
         ],
         "equipment": [
-            "dumbbell"
+            "Dumbbell"
         ],
         "steps": [
             "A Preacher Curl uses a special bench to support the triceps & isolate the biceps to build the arms. This version uses dumbbells & single arm movements for better control",
@@ -7716,7 +7716,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "forearm"
         ],
         "equipment": [
-            "barbell"
+            "Barbell"
         ],
         "steps": [
             "&nbsp;",
@@ -7749,7 +7749,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "secondary": [],
         "equipment": [
-            "dumbbell"
+            "Dumbbell"
         ],
         "steps": [
             "Adjust the seat of the bench so that your arms are level with the top of the bench",
@@ -7812,7 +7812,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "secondary": [],
         "equipment": [
-            "barbell"
+            "Barbell"
         ],
         "steps": [
             "Concentration exercises limit your range of movement to increase the effectiveness of the movement. This version uses a barbell",
@@ -7847,7 +7847,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "forearm"
         ],
         "equipment": [
-            "dumbbell"
+            "Dumbbell"
         ],
         "steps": [
             "Sit on bench with your feet firmly on the floor & your back straight",
@@ -7880,7 +7880,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "forearm"
         ],
         "equipment": [
-            "dumbbell"
+            "Dumbbell"
         ],
         "steps": [
             "Sit on the edge of a bench with your feet firmly planted on the floor",
@@ -7910,7 +7910,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "secondary": [],
         "equipment": [
-            "barbell"
+            "Barbell"
         ],
         "steps": [
             "This exercise uses the straight side of a Preacher Curl bench to increase the range of motion of the exercise",
@@ -7945,7 +7945,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "forearm"
         ],
         "equipment": [
-            "dumbbell"
+            "Dumbbell"
         ],
         "steps": [
             "St& with your feet shoulder width apart, your knees slightly bent & your abs drawn in",
@@ -8013,7 +8013,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "forearm"
         ],
         "equipment": [
-            "dumbbell"
+            "Dumbbell"
         ],
         "steps": [
             "This exercise is a great alternative to the Preacher Curl",
@@ -8049,7 +8049,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "forearm"
         ],
         "equipment": [
-            "dumbbell"
+            "Dumbbell"
         ],
         "steps": [
             "A Preacher Curl uses a special bench to support the triceps & isolate the biceps to build the arms. This version of the exercise uses dumbbells",
@@ -8084,7 +8084,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "forearm"
         ],
         "equipment": [
-            "barbell"
+            "Barbell"
         ],
         "steps": [
             "This is a wide grip version of a biceps curl. The wider grip targets the lateral or outer portion of the muscle",
@@ -8119,7 +8119,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "forearm"
         ],
         "equipment": [
-            "dumbbell"
+            "Dumbbell"
         ],
         "steps": [
             "St& with your feet shoulder width apart, your knees slightly bent & your & your abs drawn in",
@@ -8152,7 +8152,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "forearm"
         ],
         "equipment": [
-            "dumbbell"
+            "Dumbbell"
         ],
         "steps": [
             "Sit at a Preacher Curl Bench",
@@ -8217,7 +8217,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "forearm"
         ],
         "equipment": [
-            "barbell"
+            "Barbell"
         ],
         "steps": [
             "St& with your feet shoulder width apart & your knees slightly bent",
@@ -8251,7 +8251,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "forearm"
         ],
         "equipment": [
-            "dumbbell"
+            "Dumbbell"
         ],
         "steps": [
             "This version of a biceps curl uses a Stability Ball. Exercises preformed with Stability Balls encourage better posture & core muscle development",
@@ -8285,7 +8285,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "glutaeus maximus"
         ],
         "equipment": [
-            "dumbbell"
+            "Dumbbell"
         ],
         "steps": [
             "This exercise combines a squat with a curl to effectively work the entire body. An advanced exercise",
@@ -8319,7 +8319,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "forearm"
         ],
         "equipment": [
-            "dumbbell"
+            "Dumbbell"
         ],
         "steps": [
             "St& with your feet shoulder width apart, your knees slightly bent & your abs drawn in",
@@ -8351,7 +8351,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "forearm"
         ],
         "equipment": [
-            "dumbbell"
+            "Dumbbell"
         ],
         "steps": [
             "Grasp a dumbbell in one h& & sit on a Stability Ball with your feet wide apart",
@@ -8388,7 +8388,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "ischiocrural muscles"
         ],
         "equipment": [
-            "barbell"
+            "Barbell"
         ],
         "steps": [
             "An advanced exercise. This exercise combines a bicep curl with a deadlift",
@@ -8426,7 +8426,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "should"
         ],
         "equipment": [
-            "dumbbell"
+            "Dumbbell"
         ],
         "steps": [
             "An advanced exercise. This exercise requires you to be able to balance kneeling on a stability ball before you can correctly perform this exercise",
@@ -8536,7 +8536,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "soleus"
         ],
         "equipment": [
-            "dumbbell",
+            "Dumbbell",
             "stability Ball"
         ],
         "steps": [
@@ -8577,7 +8577,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "hip abductors"
         ],
         "equipment": [
-            "dumbbell"
+            "Dumbbell"
         ],
         "steps": [
             "Grasp a dumbbell in each h& with your palms facing up",
@@ -8617,7 +8617,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "glutaeus maximus"
         ],
         "equipment": [
-            "dumbbell"
+            "Dumbbell"
         ],
         "steps": [
             "Grasp a dumbbell in each h& with your palms facing up",
@@ -8659,7 +8659,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "soleus"
         ],
         "equipment": [
-            "dumbbell"
+            "Dumbbell"
         ],
         "steps": [
             "An advanced exercise. This exercise combines a step up with a bicep curl",
@@ -8733,7 +8733,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "Triceps Brachii"
         ],
         "equipment": [
-            "dumbbell"
+            "Dumbbell"
         ],
         "steps": [
             "Grasp a pair of dumbbells in each h&, palms facing up",
@@ -8767,7 +8767,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "core"
         ],
         "equipment": [
-            "dumbbell",
+            "Dumbbell",
             "bosu ball"
         ],
         "steps": [
@@ -8802,7 +8802,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "secondary": [],
         "equipment": [
-            "body"
+            "Body"
         ],
         "steps": [
             "St& on one foot near a chair or wall for support",
@@ -8859,7 +8859,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "secondary": [],
         "equipment": [
-            "barbell"
+            "Barbell"
         ],
         "steps": [
             "Place a block on the floor about one foot in front of a bench",
@@ -8954,7 +8954,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "secondary": [],
         "equipment": [
-            "body"
+            "Body"
         ],
         "steps": [
             "An old school gym exercise which requires the assistance of another person. An advanced exercise & not recommended for beginners",
@@ -8987,7 +8987,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "secondary": [],
         "equipment": [
-            "dumbbell"
+            "Dumbbell"
         ],
         "steps": [
             "This version of a calf raise allows you to exercise each leg individually. This exercise is helpful to people who are rehabilitating from injury as it allows you flexibility with the weight",
@@ -9021,7 +9021,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "ischiocrural muscles"
         ],
         "equipment": [
-            "body"
+            "Body"
         ],
         "steps": [
             "St& with your feet a little closer than shoulder width apart",
@@ -9051,7 +9051,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "secondary": [],
         "equipment": [
-            "barbell"
+            "Barbell"
         ],
         "steps": [
             "St& with a bar across your shoulders",
@@ -9116,7 +9116,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "secondary": [],
         "equipment": [
-            "smith machine"
+            "Smith Machine"
         ],
         "steps": [
             "Place a block or low box under the bar at a Smith Machine",
@@ -9148,7 +9148,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "secondary": [],
         "equipment": [
-            "barbell"
+            "Barbell"
         ],
         "steps": [
             "Place a block or two free weight plates on the floor",
@@ -9210,7 +9210,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "secondary": [],
         "equipment": [
-            "dumbbell"
+            "Dumbbell"
         ],
         "steps": [
             "Place a block or two free weight plates on the floor",
@@ -9235,7 +9235,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "secondary": [],
         "equipment": [
-            "body"
+            "Body"
         ],
         "steps": [
             "This exercise works your abs by raising your arms to meet your legs. The movements are similar to riding a bike",
@@ -9272,7 +9272,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "Deltoid"
         ],
         "equipment": [
-            "barbell"
+            "Barbell"
         ],
         "steps": [
             "Place a barbell on the floor at your feet",
@@ -9307,7 +9307,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "Deltoid"
         ],
         "equipment": [
-            "barbell"
+            "Barbell"
         ],
         "steps": [
             "This exercise works the abs & lower back & is the proper version of an “ab roller”. This version is performed on your knees",
@@ -9339,7 +9339,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "secondary": [],
         "equipment": [
-            "body"
+            "Body"
         ],
         "steps": [
             "Lie on your back with your arms outstretched to your sides",
@@ -9401,7 +9401,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "secondary": [],
         "equipment": [
-            "body"
+            "Body"
         ],
         "steps": [
             "Lie on your back & bring your knees up to a 60 degree angle, keep your feet flat on the floor",
@@ -9463,7 +9463,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "secondary": [],
         "equipment": [
-            "body"
+            "Body"
         ],
         "steps": [
             "This is the most common abdominal exercise & possibly the most often improperly performed. Here is how to perform it correctly",
@@ -9495,7 +9495,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "secondary": [],
         "equipment": [
-            "body"
+            "Body"
         ],
         "steps": [
             "Lie on a decline bench face up",
@@ -9527,7 +9527,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "secondary": [],
         "equipment": [
-            "body"
+            "Body"
         ],
         "steps": [
             "This version of a decline crunch isolates the oblique (side) muscles of the abs",
@@ -9560,7 +9560,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "secondary": [],
         "equipment": [
-            "dumbbell"
+            "Dumbbell"
         ],
         "steps": [
             "St& with your feet shoulder width apart, your knees slightly bent & your abs drawn in",
@@ -9591,7 +9591,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "secondary": [],
         "equipment": [
-            "body"
+            "Body"
         ],
         "steps": [
             "This crunch uses a Stability Ball. The ball allows you a better range of movement because it adapts better to your spine",
@@ -9624,7 +9624,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "secondary": [],
         "equipment": [
-            "body"
+            "Body"
         ],
         "steps": [
             "Lay down as if you were performing a pushup",
@@ -9651,13 +9651,13 @@ data class ExerciseJSONData(val unimportantString: String) {
         "primer": "This exercise focuses on the middle back",
         "type": "Compound",
         "primary": [
-            "latissimus dorsi"
+            "Latissimus Dorsi"
         ],
         "secondary": [
             "biceps brachii"
         ],
         "equipment": [
-            "barbell"
+            "Barbell"
         ],
         "steps": [
             "Place your feet shoulder width apart",
@@ -9683,10 +9683,10 @@ data class ExerciseJSONData(val unimportantString: String) {
             "Deltoid"
         ],
         "secondary": [
-            "latissimus dorsi"
+            "Latissimus Dorsi"
         ],
         "equipment": [
-            "dumbbells"
+            "Dumbbells"
         ],
         "steps": [
             "Grasp dumbbells in each h& with a pronated grip (palms facing back wards, your shoulder rotated forward",
@@ -9721,7 +9721,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "Triceps Brachii"
         ],
         "equipment": [
-            "smith machine"
+            "Smith Machine"
         ],
         "steps": [
             "An exercise for chest, shoulder & triceps strengthening",

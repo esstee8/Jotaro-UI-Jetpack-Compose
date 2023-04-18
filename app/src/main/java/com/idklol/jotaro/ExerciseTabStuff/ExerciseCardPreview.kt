@@ -3,7 +3,7 @@ package com.idklol.jotaro.ExerciseTabStuff
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
 import com.google.gson.Gson
-import com.idklol.jotaro.Exercise
+import com.idklol.jotaro.Models.Exercise
 
 // This is just to preview 'ExerciseCard'
 // For ExerciseCardPreview()
@@ -14,16 +14,16 @@ val jsonSample = """
         "name": "smith-machine-upright-row",
         "title": "Upright Row: Smith Machine",
         "primer": "This is an exercise for shoulder and biceps strengthening.",
-        "type": "isolation",
+        "type": "Isolation",
         "primary": [
-            "deltoid"
+            "Deltoid"
         ],
         "secondary": [
-            "biceps brachii",
-            "upper back"
+            "Biceps Brachii",
+            "Upper Back"
         ],
         "equipment": [
-            "smith machine"
+            "Smith Machine"
         ],
         "steps": [
             "Stand with your feet shoulder width apart and your abs drawn in.",

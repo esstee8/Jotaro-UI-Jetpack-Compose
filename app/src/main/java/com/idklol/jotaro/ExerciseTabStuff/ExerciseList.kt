@@ -2,10 +2,11 @@ package com.idklol.jotaro.ExerciseTabStuff
 
 import androidx.compose.runtime.Composable
 import com.google.gson.Gson
-import com.idklol.jotaro.Exercise
+import com.idklol.jotaro.Models.Exercise
 
 
 @Composable
+// Load the internal JSON data, then display it in VerticalExerciseList
 fun ExerciseList() {
     // Load gson, create java array, then convert it to kotlin array for loading
     //  into `VerticalExerciseList` (which internally uses LazyColumn)

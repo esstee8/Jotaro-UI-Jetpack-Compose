@@ -26,13 +26,12 @@ import com.idklol.jotaro.ui.theme.jotaroColor
 
 // on below line we are creating a
 // composable function for our tab layout
-@OptIn(ExperimentalUnitApi::class)
 @ExperimentalPagerApi
 @Composable
 fun TabLayout() {
 
-    // on below line we are creating variable for pager state.
-    val pagerState = rememberPagerState(pageCount = 3)
+
+    val pagerState = rememberPagerState(initialPage = 2, pageCount = 3)
 
     // on below line we are creating a column for our widgets.
     Column(
@@ -47,28 +46,10 @@ fun TabLayout() {
             // in our top app bar.
             Column(
                 modifier = Modifier.fillMaxSize(),
-                // on below line we are providing alignment for our
-                // column to center of our top app bar.
                 horizontalAlignment = Alignment.CenterHorizontally,
                 verticalArrangement = Arrangement.Center
             ) {
-                // on below line we are specifying a text and
-                // specifying a text as "Tab Layout Example"
-//                Text(
-//                    text = "Jotaro ",
-//                    style = TextStyle(color = Color.White),
-//                    fontWeight = FontWeight.Bold,
-//                    fontSize = TextUnit(
-//                        28F,
-//                        TextUnitType.Sp
-//                    ),
-//                    // on below line we are specifying a modifier
-//                    // to our text and adding passing from all sides.
-//                    modifier = Modifier.padding(all = Dp(5F)),
-//                    // on below line we are aligning
-//                    // our text to center.
-//                    textAlign = TextAlign.Center
-//                )
+                // ToDo: Can we put anything here?
             }
         }
         // on below line we are calling tabs
@@ -78,5 +59,7 @@ fun TabLayout() {
         TabsContent(pagerState = pagerState) // TAB CONTENT
 
         // TODO: Can I put a '+' sign to add to the `Exercises` and `Workouts`
+
+
     }
 }

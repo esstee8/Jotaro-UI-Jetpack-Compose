@@ -1,4 +1,4 @@
-package com.idklol.jotaro
+package com.idklol.jotaro.Models
 
 data class Exercise(
     val id: String,

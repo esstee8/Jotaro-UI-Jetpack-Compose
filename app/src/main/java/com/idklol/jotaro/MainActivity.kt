@@ -19,6 +19,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             JotaroTheme {
+                // TODO: Redo the tab wih Tab Controllers?'
                 TabLayout()
             }
         }

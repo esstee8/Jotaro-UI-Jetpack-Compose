@@ -7,7 +7,7 @@ import androidx.compose.material.Card
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.idklol.jotaro.Exercise
+import com.idklol.jotaro.Models.Exercise
 
 @Composable
 // TODO: Can we optimize this by only passing in necessary pieces of info?
