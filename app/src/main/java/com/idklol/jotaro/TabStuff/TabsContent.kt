@@ -5,7 +5,7 @@ import androidx.compose.runtime.Composable
 import com.google.accompanist.pager.ExperimentalPagerApi
 import com.google.accompanist.pager.HorizontalPager
 import com.google.accompanist.pager.PagerState
-import com.idklol.jotaro.ExerciseList
+import com.idklol.jotaro.ExerciseTabStuff.ExerciseList
 
 // on below line we are creating a tab content method
 // in which we will be displaying the individual page of our tab .
@@ -28,12 +28,12 @@ fun TabsContent(pagerState: PagerState) {
             // and specifying data as Shopping Screen.
 //            1 -> TabContentScreen(data = "Workout Screen")
             // TODO: Make a Workouts View
-            1 -> Text("Workouts Screen")
+            1 -> Text("")
             // on below line we are calling tab content screen
             // and specifying data as Settings Screen.
 //            2 -> TabContentScreen(data = "Settings Screen")
             // TODO: Make a Settings View
-            2 -> Text("Settings Screen")
+            2 -> Text("")
         }
     }
 }

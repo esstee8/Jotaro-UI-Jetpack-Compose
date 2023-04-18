@@ -54,28 +54,20 @@ fun TabLayout() {
             ) {
                 // on below line we are specifying a text and
                 // specifying a text as "Tab Layout Example"
-                Text(
-                    text = "Jotaro ",
-                    style = TextStyle(color = Color.White),
-                    fontWeight = FontWeight.Bold,
-                    fontSize = TextUnit(
-                        28F,
-                        TextUnitType.Sp
-                    ),
-                    // on below line we are specifying a modifier
-                    // to our text and adding passing from all sides.
-                    modifier = Modifier.padding(all = Dp(5F)),
-                    // on below line we are aligning
-                    // our text to center.
-                    textAlign = TextAlign.Center
-                )
-//                Text(text = "Workouts",
+//                Text(
+//                    text = "Jotaro ",
 //                    style = TextStyle(color = Color.White),
 //                    fontWeight = FontWeight.Bold,
 //                    fontSize = TextUnit(
-//                        18F,
+//                        28F,
 //                        TextUnitType.Sp
 //                    ),
+//                    // on below line we are specifying a modifier
+//                    // to our text and adding passing from all sides.
+//                    modifier = Modifier.padding(all = Dp(5F)),
+//                    // on below line we are aligning
+//                    // our text to center.
+//                    textAlign = TextAlign.Center
 //                )
             }
         }

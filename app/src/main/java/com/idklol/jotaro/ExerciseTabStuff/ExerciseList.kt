@@ -1,7 +1,8 @@
-package com.idklol.jotaro
+package com.idklol.jotaro.ExerciseTabStuff
 
 import androidx.compose.runtime.Composable
 import com.google.gson.Gson
+import com.idklol.jotaro.Exercise
 
 
 @Composable

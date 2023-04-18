@@ -1,8 +1,9 @@
-package com.idklol.jotaro
+package com.idklol.jotaro.ExerciseTabStuff
 
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.runtime.Composable
+import com.idklol.jotaro.Exercise
 
 @Composable
 // Given a Kotlin List of Exercise items, loads

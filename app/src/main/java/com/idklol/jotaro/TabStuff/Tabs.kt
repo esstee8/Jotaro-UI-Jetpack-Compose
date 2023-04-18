@@ -23,7 +23,7 @@ fun Tabs(pagerState: PagerState) {
     // in this list we are specifying data as
     // name of the tab and the icon for it.
     val list = listOf(
-        // ToDo: Modify the tab Icons
+        // TODO: Modify the tab Icons
         "Exercises" to Icons.Default.Home,
         "Workouts" to Icons.Default.ShoppingCart,
         "Settings" to Icons.Default.Settings

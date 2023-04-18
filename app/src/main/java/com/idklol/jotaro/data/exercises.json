@@ -67,7 +67,7 @@
         "id": "0003",
         "name": "seated-shoulder-press-machine",
         "title": "Seated Shoulder Press Machine",
-        "primer": "This is an exercise for the shoulder strengthening.",
+        "primer": "This is an exercise for shoulder strengthening.",
         "type": "isolation",
         "primary": [
             "deltoid"
@@ -94,7 +94,7 @@
         "id": "0004",
         "name": "seated-military-press",
         "title": "Seated Military Press",
-        "primer": "An exercise for the shoulder and triceps strengthening.",
+        "primer": "An exercise for shoulder and triceps strengthening.",
         "type": "isolation",
         "primary": [
             "deltoid"
@@ -718,7 +718,7 @@
         "id": "0022",
         "name": "smith-machine-rear-deltoid-row",
         "title": "Smith Machine Rear Deltoid Row",
-        "primer": "A exercise for the rear deltoid",
+        "primer": "A exercise for rear deltoid",
         "type": "isolation",
         "primary": [
             "deltoid"
@@ -1358,7 +1358,7 @@
         "id": "0042",
         "name": "bench-press",
         "title": "Bench Press: Barbell",
-        "primer": "This is an exercise for the chest.",
+        "primer": "This is an exercise for chest.",
         "type": "compound",
         "primary": [
             "pectoralis major"
@@ -2235,7 +2235,7 @@
         "id": "0068",
         "name": "one-arm-bench-press",
         "title": "Bench Press: Dumbbell (One Arm)",
-        "primer": "This is an advanced strengthening exercise for the chest and rotator cuff muscles of the shoulder.",
+        "primer": "This is an advanced strengthening exercise for chest and rotator cuff muscles of the shoulder.",
         "type": "isolation",
         "primary": [
             "pectoralis major"
@@ -2678,7 +2678,7 @@
             "With slow controlled movements, raise the bar back to the starting position."
         ],
         "tips": [
-            "when you are doing this exercise for the first time, start on a lower weight in oder to perfect the technique."
+            "when you are doing this exercise for first time, start on a lower weight in oder to perfect the technique."
         ],
         "references": [],
         "svg": [
@@ -2794,7 +2794,7 @@
         "id": "0085",
         "name": "decline-chest-press",
         "title": "Decline Chest Press",
-        "primer": "This is an exercise for the strengthening of the lower chest or pectoral muscles and is preferred by beginners as it provides support and stability.",
+        "primer": "This is an exercise for strengthening of the lower chest or pectoral muscles and is preferred by beginners as it provides support and stability.",
         "type": "isolation",
         "primary": [
             "pectoralis major"
@@ -3261,7 +3261,7 @@
         "id": "0099",
         "name": "barbell-dead-lifts",
         "title": "Dead Lifts: Barbell",
-        "primer": "The techniques is identical to that of the Smith Machine dead lift except for the fact that this exercise provides less support.",
+        "primer": "The techniques is identical to that of the Smith Machine dead lift except for fact that this exercise provides less support.",
         "type": "isolation",
         "primary": [
             "erector spinae"
@@ -3465,7 +3465,7 @@
         "id": "0105",
         "name": "supermans",
         "title": "Supermans",
-        "primer": "This is an excellent exercise and a stretch for the lower back and core muscles.",
+        "primer": "This is an excellent exercise and a stretch for lower back and core muscles.",
         "type": "isolation",
         "primary": [
             "erector spinae"
@@ -4023,7 +4023,7 @@
             "smith machine"
         ],
         "steps": [
-            "This exercise uses the Smith Machine to work the Quadriceps, Hamstrings, Calves and Glutes. A great overall exercise for the lower body. There are many variations on the squat, this is the original version using a Smith Machine for better flow of movement.",
+            "This exercise uses the Smith Machine to work the Quadriceps, Hamstrings, Calves and Glutes. A great overall exercise for lower body. There are many variations on the squat, this is the original version using a Smith Machine for better flow of movement.",
             "Set the height of the barbell to shoulder height.",
             "Place your feet slightly wider than shoulder width apart with your knees and toes pointed slightly outward.",
             "Drawing your abs in descend slowly by bending at the knees and hips as if you are sitting down (squatting).",
@@ -4228,7 +4228,7 @@
         "id": "0130",
         "name": "squats-using-dumbbells",
         "title": "Squats: Dumbbells",
-        "primer": "This is a great overall exercise for the lower body that uses dumbbells.",
+        "primer": "This is a great overall exercise for lower body that uses dumbbells.",
         "type": "compound",
         "primary": [
             "quadriceps"
@@ -4242,7 +4242,7 @@
             "dumbbells"
         ],
         "steps": [
-            "This is a great overall exercise for the lower body that uses dumbbells instead of a barbell. Beginners may find this version easier to perform.",
+            "This is a great overall exercise for lower body that uses dumbbells instead of a barbell. Beginners may find this version easier to perform.",
             "Grasp a dumbbell in each hand.",
             "Stand with feet slightly wider than shoulder width apart with your knees and toes pointed slightly outward.",
             "Drawing your abs in descend slowly by bending at the knees and hips as if you are sitting down (squatting).",
@@ -4350,7 +4350,7 @@
             "bench"
         ],
         "steps": [
-            "This is s great overall exercise for the lower body. There are many variations on the squat, this one uses a bench to remind you how far down to squat.",
+            "This is s great overall exercise for lower body. There are many variations on the squat, this one uses a bench to remind you how far down to squat.",
             "Place a bench behind you.",
             "Lifting a barbell off of a weight rack, position it on your shoulders.",
             "Place your feet slightly wider than shoulder width apart with your knees and toes pointed slightly outward.",
@@ -4458,7 +4458,7 @@
             "bench"
         ],
         "steps": [
-            "This is a great overall exercise for the lower body. There are many variations on the squat, this one uses a bench to remind you how far down to squat.",
+            "This is a great overall exercise for lower body. There are many variations on the squat, this one uses a bench to remind you how far down to squat.",
             "Place a bench behind you.",
             "Grasp a dumbbell in each hand.",
             "Place your feet slightly wider than shoulder width apart with your knees and toes pointed slightly outward.",
@@ -4811,7 +4811,7 @@
             "barbell"
         ],
         "steps": [
-            "A great overall exercise for the lower body. This version of the Squat targets and defines more of the externals leg muscles.",
+            "A great overall exercise for lower body. This version of the Squat targets and defines more of the externals leg muscles.",
             "Lifting a barbell off of a weight rack, position it on your shoulders.",
             "Place your feet about 6 inches apart with your knees and toes pointed slightly outward.",
             "Drawing your abs in, descend slowly by bending at the knees and hips as if you are sitting down (squatting).",
@@ -6555,7 +6555,7 @@
         "id": "0204",
         "name": "triceps-kickback-with-dumbbell",
         "title": "Triceps Kickback with Dumbbell",
-        "primer": "This along with the Triceps Push Down is one of the most beneficial exercises for the arms.",
+        "primer": "This along with the Triceps Push Down is one of the most beneficial exercises for arms.",
         "type": "isolation",
         "primary": [
             "triceps brachii"
@@ -6780,7 +6780,7 @@
         "id": "0211",
         "name": "biceps-curls-with-barbell",
         "title": "Biceps Curl: Barbell",
-        "primer": "This is a basic exercise for the biceps.",
+        "primer": "This is a basic exercise for biceps.",
         "type": "isolation",
         "primary": [
             "biceps brachii"
@@ -6793,7 +6793,7 @@
             "barbell"
         ],
         "steps": [
-            "This is a basic exercise for the biceps (arms).",
+            "This is a basic exercise for biceps (arms).",
             "Stand with your feet shoulder width apart, your knees slightly bent and your abs drawn in.",
             "Grasp a barbell with palms facing up, approximately shoulder width apart.",
             "Lower your arms fully to above your thighs and bending only your elbows, raise the bar to your upper chest.",
@@ -8787,7 +8787,7 @@
         "id": "0270",
         "name": "ankle-circles",
         "title": "Ankle Circles",
-        "primer": "This is the most simple of all exercises for the calves.",
+        "primer": "This is the most simple of all exercises for calves.",
         "type": "isolation",
         "primary": [
             "gastrocnemius",
@@ -9068,7 +9068,7 @@
         "id": "0279",
         "name": "seated-calf-raise-using-machine",
         "title": "Seated Calf Raise using Machine",
-        "primer": "This is one of the simplest and most effective exercises for the calves.",
+        "primer": "This is one of the simplest and most effective exercises for calves.",
         "type": "isolation",
         "primary": [
             "gastrocnemius",
@@ -9496,7 +9496,7 @@
             "Place your hands either across your chest or on either side of your head (over your ears).",
             "Lay fully back and then rise slowly crunching your abs.",
             "Pause for a moment and then return to the starting position.",
-            "Note: Use the full range of movement in this exercise for the optimal results."
+            "Note: Use the full range of movement in this exercise for optimal results."
         ],
         "tips": [],
         "references": [],

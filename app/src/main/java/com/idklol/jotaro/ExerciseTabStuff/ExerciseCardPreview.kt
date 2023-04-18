@@ -1,8 +1,9 @@
-package com.idklol.jotaro
+package com.idklol.jotaro.ExerciseTabStuff
 
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
 import com.google.gson.Gson
+import com.idklol.jotaro.Exercise
 
 // This is just to preview 'ExerciseCard'
 // For ExerciseCardPreview()

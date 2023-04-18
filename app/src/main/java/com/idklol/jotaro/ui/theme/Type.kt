@@ -12,6 +12,19 @@ val SecularOneRegular = FontFamily(
     Font(R.font.secular_one_regular)
 )
 
+val AnonymousProItalic = FontFamily(
+    Font(R.font.anonymous_pro_italic)
+)
+
+val ComfortaaLight = FontFamily(
+    Font(R.font.comfortaa_light)
+)
+
+val ArvoFamily = FontFamily(
+    Font(R.font.arvo_italic, FontWeight.Thin),
+    Font(R.font.arvo_bold, FontWeight.Bold),
+    Font(R.font.arvo_regular, FontWeight.Normal)
+)
 
 // Set of Material typography styles to start with
 val Typography = Typography(
@@ -25,6 +38,11 @@ val Typography = Typography(
             fontFamily = SecularOneRegular,
             fontWeight = FontWeight.Normal,
             fontSize = 32.sp
+    ),
+    subtitle2 = TextStyle(
+        fontFamily = ArvoFamily, // From the 'Arvo' set of fonts, select the version we denoted as 'Thin'
+        fontWeight = FontWeight.Thin,
+        fontSize = 20.sp
     )
     /* Other default text styles to override
     button = TextStyle(
