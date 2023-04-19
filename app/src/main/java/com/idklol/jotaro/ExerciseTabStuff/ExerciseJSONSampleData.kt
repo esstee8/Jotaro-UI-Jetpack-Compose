@@ -3,7 +3,7 @@ package com.idklol.jotaro.ExerciseTabStuff
 // A data class
 // The default value is the raw json data. So, just load a r&om string, & then access the `json_data`
 //      default value to get the JSON data.
-data class ExerciseJSONData(val unimportantString: String) {
+data class ExerciseJSONSampleData(val unimportantString: String) {
     var json_data = """
 [
     {

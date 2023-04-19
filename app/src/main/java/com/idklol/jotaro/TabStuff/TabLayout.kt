@@ -5,6 +5,7 @@ import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
+import androidx.compose.material.BottomAppBar
 import androidx.compose.material.Text
 import androidx.compose.material.TopAppBar
 import androidx.compose.runtime.Composable
@@ -31,7 +32,7 @@ import com.idklol.jotaro.ui.theme.jotaroColor
 @Composable
 fun TabLayout() {
 
-    // TODO: Is TabLayout the 'starting point' of the graph? Anyway, do it after reimplimenting tabs
+// TODO: Is TabLayout the 'starting point' of the graph? Anyway, do it after reimplimenting tabs
 //    NavHost(navController = navController, startDestination = "profile") {
 //        composable("profile") { TabLayout(/*...*/) }
 //        composable("friendslist") { FriendsList(/*...*/) }
@@ -52,13 +53,13 @@ fun TabLayout() {
             // on below line we are specifying a column
             // for our text view to display a text
             // in our top app bar.
-            Column(
-                modifier = Modifier.fillMaxSize(),
-                horizontalAlignment = Alignment.CenterHorizontally,
-                verticalArrangement = Arrangement.Center
-            ) {
-                // ToDo: Can we put anything here?
-            }
+//            Column(
+//                modifier = Modifier.fillMaxSize(),
+//                horizontalAlignment = Alignment.CenterHorizontally,
+//                verticalArrangement = Arrangement.Center
+//            ) {
+//                // ToDo: Can we put anything here?
+//            }
         }
         // on below line we are calling tabs
         Tabs(pagerState = pagerState) // TAB ORGANIZERS

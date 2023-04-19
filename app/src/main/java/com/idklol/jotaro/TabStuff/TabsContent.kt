@@ -7,9 +7,12 @@ import com.google.accompanist.pager.HorizontalPager
 import com.google.accompanist.pager.PagerState
 import com.idklol.jotaro.ExerciseTabStuff.ExerciseList
 import com.idklol.jotaro.WorkoutList
+import com.idklol.jotaro.JotaroLocalData
+
+val jData = JotaroLocalData("")
 
 // on below line we are creating a tab content method
-// in which we will be displaying the individual page of our tab .
+// in which we will be displaying the individual page of our tab
 @ExperimentalPagerApi
 @Composable
 fun TabsContent(pagerState: PagerState) {
@@ -24,12 +27,12 @@ fun TabsContent(pagerState: PagerState) {
             // and specifying data as Home Screen.
 //            0 -> TabContentScreen(data = "Exercise Screen")
             // TODO: Make an Exercise View
-            0 -> ExerciseList()
+            0 -> ExerciseList(exerciseItems = jData.exercise_samples) // TODO: Pass in a parameter as in `WorkoutList`
             // on below line we are calling tab content screen
             // and specifying data as Shopping Screen.
 //            1 -> TabContentScreen(data = "Workout Screen")
             // TODO: Make a Workouts View
-            1 -> WorkoutList()
+            1 -> WorkoutList(workoutsItems = jData.workout_samples)
             // on below line we are calling tab content screen
             // and specifying data as Settings Screen.
 //            2 -> TabContentScreen(data = "Settings Screen")

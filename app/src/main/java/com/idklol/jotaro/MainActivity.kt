@@ -35,12 +35,12 @@ class MainActivity : ComponentActivity() {
         setContent {
             JotaroTheme {
                 // navController  :Do when tab layout is changed
-                val navController = rememberNavController()
+//                val navController = rememberNavController()
 //                NavHost(navController = navController, startDestination = "profile") {
 //                    composable("Exercises") { VerticalExerciseList(exerciseItems = ) }
 //                }
                 TabLayout() // TODO: To deprecate (Because google did it :crying emoji:)
-                val backStackEntry = navController.currentBackStackEntryAsState()
+//                val backStackEntry = navController.currentBackStackEntryAsState()
 
             }
         }

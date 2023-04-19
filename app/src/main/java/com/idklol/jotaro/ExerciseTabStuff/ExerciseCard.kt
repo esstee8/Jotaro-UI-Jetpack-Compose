@@ -17,12 +17,6 @@ import androidx.compose.ui.unit.sp
 import com.idklol.jotaro.Models.Exercise
 
 
-// To build paths:
-// For example: github_data_path + "png/0001-relaxation.png" to get the photo
-const val github_data_path = "https://raw.githubusercontent.com/10dollarusername/Jotaro-Exercise-Data/main/"
-
-
-
 @Composable
 // TODO: Tap on the card to display a new view that shows the Exercise view in more detail, and option to add to a Workout
 // TODO: Quick select multiple cards, along with filtering options
@@ -43,7 +37,7 @@ fun ExerciseCard(exercise: Exercise) {
             Text(
                 text = exercise.title,
                 style = MaterialTheme.typography.h1,
-                textAlign = TextAlign.Center,
+                textAlign = TextAlign.Start,
                 color = com.idklol.jotaro.ui.theme.jotaroDarkIntenseBlue,
                 fontSize = 22.sp,
                 fontWeight = FontWeight.Bold,
