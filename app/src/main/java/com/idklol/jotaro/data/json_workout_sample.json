@@ -1,0 +1,44 @@
+[
+    {
+        "workout_id": 1,
+        "title": "Isometric Quick Workout",
+        "exercises": [
+            "0001",
+            "0002",
+            "0027"
+            ],
+        "notes": [
+            "Quick workout with isometric focused-exercises",
+            "Use just with body"
+            ]
+    },
+    
+    {
+        "workout_id": 2,
+        "title": "Compound Quick Workout",
+        "exercises": [
+            "0025",
+            "0042",
+            "0138",
+            "0162"
+            ],
+        "notes": [
+            "Quick workout with compound-focused exercises"
+            ]
+
+    },
+    {
+        "workout_id": 3,
+        "title": "Compound & Isolation Workout",
+        "exercises": [
+            "0256",
+            "0264",
+            "0265"
+
+            ],
+        "notes": [
+            "Quick workout that has both Compound-Isometric hybrid exercises",
+            "Is there any way to improve this workout??"
+            ]
+    }
+]

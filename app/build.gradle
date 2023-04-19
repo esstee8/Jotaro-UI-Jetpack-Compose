@@ -55,6 +55,12 @@ dependencies {
     // TODO: Remove the `Accompanist` pager above as it's deprecated
     implementation 'androidx.compose.foundation:foundation:1.4.1'
 
+    // Nav controller
+    implementation "androidx.navigation:navigation-compose:$nav_version"
+
+    // Material 3
+    implementation "androidx.compose.material3:material3:$material3_version"
+
     //GSON
     implementation 'com.google.code.gson:gson:2.10.1'
 

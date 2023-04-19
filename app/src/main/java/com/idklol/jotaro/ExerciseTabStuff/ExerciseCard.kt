@@ -1,5 +1,8 @@
 package com.idklol.jotaro.ExerciseTabStuff
 
+import android.content.ContentValues.TAG
+import android.util.Log
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.*
@@ -28,10 +31,10 @@ fun ExerciseCard(exercise: Exercise) {
         shape = RoundedCornerShape(12.dp),
         elevation = 22.dp,
         backgroundColor = MaterialTheme.colors.surface, // White
-        modifier = Modifier.padding(16.dp)
+        modifier = Modifier
+            .padding(16.dp)
+            .clickable { Log.d(TAG, "ExerciseCard: YOU PRESSED THE EXERCISE CARD") } // TODO: clickable for ExerciseCard
     ) {
-
-
         // This inner column is the 'content' of the card
         Column(
             modifier = Modifier.padding(16.dp)
@@ -45,7 +48,7 @@ fun ExerciseCard(exercise: Exercise) {
                 fontSize = 22.sp,
                 fontWeight = FontWeight.Bold,
                 letterSpacing = 2.sp,
-                modifier = Modifier.fillMaxWidth()
+//                modifier = Modifier.fillMaxWidth()
             )
             Spacer(modifier = Modifier.height(8.dp))
 
@@ -54,7 +57,7 @@ fun ExerciseCard(exercise: Exercise) {
                 text = exercise.primer,
                 style = MaterialTheme.typography.subtitle2,
                 textAlign = TextAlign.Center,
-                modifier = Modifier.fillMaxWidth()
+//                modifier = Modifier.fillMaxWidth()
             )
 
             // Formatters

@@ -18,6 +18,7 @@ import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.ExperimentalUnitApi
 import androidx.compose.ui.unit.TextUnit
 import androidx.compose.ui.unit.TextUnitType
+import androidx.navigation.NavHost
 import com.google.accompanist.pager.ExperimentalPagerApi
 import com.google.accompanist.pager.rememberPagerState
 import com.idklol.jotaro.TabStuff.TabsContent
@@ -29,6 +30,13 @@ import com.idklol.jotaro.ui.theme.jotaroColor
 @ExperimentalPagerApi
 @Composable
 fun TabLayout() {
+
+    // TODO: Is TabLayout the 'starting point' of the graph? Anyway, do it after reimplimenting tabs
+//    NavHost(navController = navController, startDestination = "profile") {
+//        composable("profile") { TabLayout(/*...*/) }
+//        composable("friendslist") { FriendsList(/*...*/) }
+//        /*...*/
+//    }
 
 
     val pagerState = rememberPagerState(initialPage = 2, pageCount = 3)

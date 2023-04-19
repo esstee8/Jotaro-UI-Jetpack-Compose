@@ -21,7 +21,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "steps": [
             "An exercise to either build or warm-up front & back neck muscles",
-            "St& or sit with your head in neutral position",
+            "Stand or sit with your head in neutral position",
             "Place both of your h&s on your forehead",
             "Press your head against your h&s & contract your neck muscles",
             "Keep your head from moving forward. Hold for at least 30 seconds",
@@ -52,7 +52,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "Body"
         ],
         "steps": [
-            "St& or sit with your head in neutral position",
+            "Stand or sit with your head in neutral position",
             "Place your left h& against the left side of your head, above your ear",
             "Push your head against your h&, without moving your head",
             "Repeat with your right h&, right side of your head"
@@ -147,7 +147,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "Dumbbell"
         ],
         "steps": [
-            "St& with your feet shoulder width apart & a slight bend in your knees",
+            "Stand with your feet shoulder width apart & a slight bend in your knees",
             "Hold a dumbbell in each h& & with your arms at your sides",
             "Lower your shoulders as much as possible",
             "With your arms straight raise both shoulders up towards your ears",
@@ -215,7 +215,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "steps": [
             "Grasp a barbell with an overh& grip(palms of h&s face downwards) ",
-            "St& up-right with your feet shoulder width apart, knees slightly bent & your abs drawn in",
+            "Stand up-right with your feet shoulder width apart, knees slightly bent & your abs drawn in",
             "With your arms straight, raise the barbell in a controlled motion to shoulder level",
             "Hold for a moment & then lower the barbell in at the same motion"
         ],
@@ -245,7 +245,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "steps": [
             "Place the pulley on the setting just above the floor",
-            "St& with your feet shoulder width apart, your abs drawn in & your knees slightly bent",
+            "Stand with your feet shoulder width apart, your abs drawn in & your knees slightly bent",
             "Starting at waist height, take the pulley in your left h&, palm facing the floor with otherwise known as an overh& grip, & raise your straight arm up towards your left shoulder",
             "At shoulder height pause for a moment",
             "With a controlled movement resist the weight & slowly lower your arm back to starting position at your waist",
@@ -282,13 +282,13 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "steps": [
             "Attach a pulley to the lowest setting on cable machine",
-            "St& with your feet shoulder width apart, your abs drawn & your back straight",
+            "Stand with your feet shoulder width apart, your abs drawn & your back straight",
             "Start with the pulley at waist height",
             "Grasp the pulley & shrug your shoulders up while keeping your arms extended",
             "Hold this position for a moment then with a controlled motion return to the starting position of the pulley to waist height"
         ],
         "tips": [
-            "Bend your knees slightly when st&ing"
+            "Bend your knees slightly when standing"
         ],
         "references": [],
         "svg": [
@@ -317,7 +317,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "Dumbbell"
         ],
         "steps": [
-            "St& with your feet shoulder width apart, abs drawn in & knees slightly bent",
+            "Stand with your feet shoulder width apart, abs drawn in & knees slightly bent",
             "Grasp a dumbbell in each h&, with your palm facing down",
             "Start with the dumbbell at waist height",
             "Raise your left arm, keeping your elbow slightly bent & your arm straight, to in line with your shoulder",
@@ -406,7 +406,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "Smith Machine"
         ],
         "steps": [
-            "St& with your feet shoulder width apart & your abs drawn in",
+            "Stand with your feet shoulder width apart & your abs drawn in",
             "Place the bar on the Smith Machine in the position where your arms are fully extended in front of you",
             "Place your h&s shoulder width apart & raise the bar up towards your chin with a controlled motion",
             "Pause at the top for a moment & rotate your shoulder blades together",
@@ -442,7 +442,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "Barbell"
         ],
         "steps": [
-            "St& with your feet shoulder width apart, your abs drawn in & back straight",
+            "Stand with your feet shoulder width apart, your abs drawn in & back straight",
             "Place the bar on rack in the position where your arms are fully extended in front of you with your elbows slightly bent",
             "Place your h&s shoulder width apart & raise the bar up towards your chin with a controlled motion",
             "Pause at the top for a moment & rotate your shoulder blades together",
@@ -480,7 +480,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "steps": [
             "Attach a straight bar to the pulley on the floor",
-            "St& with your feet shoulder width apart, your abs drawn in & your back straight",
+            "Stand with your feet shoulder width apart, your abs drawn in & your back straight",
             "Grasp the bar with an overh& grasp (your palms facing downwards) & pull it up towards your waist, this is the starting position",
             "Raise the bar up to in line with your shoulders",
             "Pause at the top & rotate your shoulder blades together",
@@ -517,7 +517,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "steps": [
             "Grasp a dumbbell in each h& with an overh& grip (palms facing downwards) & hold them in front of your thighs",
-            "St& with your feet shoulder width apart, your abs drawn in & your back straight",
+            "Stand with your feet shoulder width apart, your abs drawn in & your back straight",
             "Starting with the dumbbells at your thighs, slowly raise them up towards your shoulders by bending your elbows",
             "Pause at the top & rotate your shoulder blades together",
             "Lower the dumbbells in a controlled motion to your thighs",
@@ -593,7 +593,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "steps": [
             "Grasp a dumbbell in each h&, palms facing inward towards your body & the dumbbells at your sides",
-            "St&ing with your feet shoulder with apart, draw your abs in & bend your knees slightly",
+            "Standing with your feet shoulder with apart, draw your abs in & bend your knees slightly",
             "While keeping your torso still, raise the your arms up to the sides keeping your arms straight with a slight bend in the elbows",
             "Raise your arms up until in line with your shoulders, your palms should face the floor",
             "Hold the position for a moment then in a controlled movement lower your arms to the starting position",
@@ -629,7 +629,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "swiss ball"
         ],
         "steps": [
-            "St& upright with your feet shoulder width apart",
+            "Stand upright with your feet shoulder width apart",
             "Place a Swiss ball at chest height against a wall & with your left h&, roll the ball in small circles against the wall",
             "Keep your arm fully extended with a slight bend in the elbow",
             "Reverse the direction of the circles",
@@ -667,8 +667,8 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "steps": [
             "Place an exercise band around a post or machine at mid chest height",
-            "St& with your feet shoulder width apart, abs drawn in & knees slightly bent",
-            "St& back from the post so there is tension in the band, grasping the band with your arms extended in front of you & a slight bend in your elbows; this is your starting position",
+            "Stand with your feet shoulder width apart, abs drawn in & knees slightly bent",
+            "Stand back from the post so there is tension in the band, grasping the band with your arms extended in front of you & a slight bend in your elbows; this is your starting position",
             "Bring your arms back in a controlled motion till they are parallel at your sides & in line with your shoulders",
             "Slowly return your arms to the starting position in front of your chest",
             "Repeat"
@@ -1022,7 +1022,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "Barbell"
         ],
         "steps": [
-            "St& on the floor with your abs drawn in & your back straight",
+            "Stand on the floor with your abs drawn in & your back straight",
             "Grasp a barbell with a grip a little wider than shoulder width at arms length",
             "Drop your shoulders as much as possible to start",
             "Raise your shoulder as high as possible",
@@ -1119,7 +1119,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "Dumbbells"
         ],
         "steps": [
-            "St& with a dumbbell in each h& with an overh& grip, your feet shoulder width apart & your abs drawn in",
+            "Stand with a dumbbell in each h& with an overh& grip, your feet shoulder width apart & your abs drawn in",
             "Keeping each arm straight raise your left arm to just above shoulder height",
             "Pause for a moment then in a controlled motion lower the weight to starting position & repeat with your right arm",
             "<h3></h3>"
@@ -1253,7 +1253,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "Dumbbell"
         ],
         "steps": [
-            "St& with your feet shoulder width apart, back straight & abs drawn in",
+            "Stand with your feet shoulder width apart, back straight & abs drawn in",
             "Grasp a dumbbell in your h& & lift it with a bent elbow to your shoulder height to start",
             "Lift the dumbbell straight up till your arm is fully extended overhead",
             "Lower in a controlled manner & return to starting position",
@@ -1286,7 +1286,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "Dumbbell"
         ],
         "steps": [
-            "St& near a post or other stable tall object. With your one h&, hold the post",
+            "Stand near a post or other stable tall object. With your one h&, hold the post",
             "Grasp the dumbbell in your other h& with a pronated grip (palms facing backwards)",
             "Place the dumbbell in front of your thigh, this is starting position",
             "Lift the dumbbell upward to your shoulder with your elbow pointing away from your body in a rowing motion",
@@ -1319,7 +1319,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "Dumbbells"
         ],
         "steps": [
-            "St& upright with your feet shoulder width apart & a slight bend in your knees",
+            "Stand upright with your feet shoulder width apart & a slight bend in your knees",
             "Grasp a dumbbell in each h&, in front of your thighs. This is your starting position",
             "Draw your abs in",
             "Raise the dumbbells up on either side of your ribs in a rowing motion by bending your elbows moving them outwards",
@@ -1345,7 +1345,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "steps": [
             "Place the barbell at waist height",
-            "St& with your feet shoulder width apart & your abs drawn in",
+            "Stand with your feet shoulder width apart & your abs drawn in",
             "Grasp the bar with an overh& grip & straightened arms",
             "As you lift the bar allow the weight to pull your shoulders down, shrug your shoulders up & to the back",
             "Hold for a moment & then return to starting position"
@@ -1585,7 +1585,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "steps": [
             "Attach the cable pulley to shoulder height",
-            "Grasp the pulley in both h&s & st& approximately one foot in front of the weight stacks, with one foot slightly in front of the other",
+            "Grasp the pulley in both h&s & stand approximately one foot in front of the weight stacks, with one foot slightly in front of the other",
             "With a slight bend in your elbows bring your h& together in front of your chest on downward angle",
             "When your h&s meet at the midpoint of your chest, hold for a moment",
             "With a slow controlled motion return to starting position"
@@ -1795,7 +1795,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "parallel bars"
         ],
         "steps": [
-            "St& in between the parallel bars",
+            "Stand in between the parallel bars",
             "Grip the h&les of the parallel bars & push yourself up to the starting position with straightened arms",
             "With your elbows close to your body keep your hips straight, lower your body forward by bending your elbows so your chest is leading as you go down",
             "Raise yourself back up to the starting position & repeat",
@@ -2486,7 +2486,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         "id": "0076",
         "name": "push-ups-with-feet-on-exercise-ball",
         "title": "Push Up: Exercise ball",
-        "primer": "This is similar to the st&ard Push Up except using an Exercise Ball forces you to engage the muscle of your core (Rectus Abdominis, Transverse Abdominis, & the Obliques)",
+        "primer": "This is similar to the standard Push Up except using an Exercise Ball forces you to engage the muscle of your core (Rectus Abdominis, Transverse Abdominis, & the Obliques)",
         "type": "Isolation",
         "primary": [
             "Pectoralis Major"
@@ -3051,7 +3051,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "steps": [
             "Grasp wide grip pull down bar with a wide grip so your h&s are on the portion of the bar which curves down",
-            "St& erect with your abs drawn in",
+            "Stand erect with your abs drawn in",
             "Keeping a slight bend in your elbows & your wrist steady pull the bar down from the starting position to your upper thighs",
             "With a controlled motion bring the bar back up to starting position"
         ],
@@ -3116,7 +3116,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "exercise band"
         ],
         "steps": [
-            "St& on the band so that the h&les are level with your upper thigh",
+            "Stand on the band so that the h&les are level with your upper thigh",
             "With your back straight & abs drawn in raise your h&s upward to your collarbone",
             "Your elbows & arms should be parallel with the floor",
             "Slowly lower your arms & return to starting position"
@@ -3282,7 +3282,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "Barbell"
         ],
         "steps": [
-            "St& with your feet shoulder width apart so that your feet are under the bar",
+            "Stand with your feet shoulder width apart so that your feet are under the bar",
             "Keeping your back straight bend at the waist, allow some bend in your knees",
             "Grasp the par with an overh& grip approximately 16 inches apart",
             "Straighten your back as you hold the bar at arm’s length",
@@ -3321,7 +3321,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "Smith Machine"
         ],
         "steps": [
-            "St& with your feet shoulder width apart so that your feet are under the bar",
+            "Stand with your feet shoulder width apart so that your feet are under the bar",
             "Keeping your back straight bend at the waist, allow some bend in your knees",
             "Grasp the par with an overh& grip approximately 16 inches apart",
             "Straighten your back as you hold the bar at arm’s length",
@@ -3374,7 +3374,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         "id": "0102",
         "name": "smith-machine-good-mornings",
         "title": "Good Mornings: Smith Machine",
-        "primer": "This exercise utilises the same technique of the st&ard Good Mornings yet the use of the Smith Machine provides more stability",
+        "primer": "This exercise utilises the same technique of the standard Good Mornings yet the use of the Smith Machine provides more stability",
         "type": "Isolation",
         "primary": [
             "erector spinae"
@@ -3518,7 +3518,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "Dumbbells"
         ],
         "steps": [
-            "Grasp 2 dumbbells & st& with your feet shoulder width apart",
+            "Grasp 2 dumbbells & stand with your feet shoulder width apart",
             "Keeping your back straight bend at the waist, allow some bend in your knees",
             "Grasp the dumbbells with an overh& grip in each h&",
             "Straighten your back as you hold the dumbbells at arm’s length",
@@ -3585,8 +3585,8 @@ data class ExerciseJSONData(val unimportantString: String) {
             "Body"
         ],
         "steps": [
-            "Using a post or tall weight bench for balance st& straight with your abs drawn in",
-            "Raise one off the ground & behind you while st&ing on the other leg",
+            "Using a post or tall weight bench for balance stand straight with your abs drawn in",
+            "Raise one off the ground & behind you while standing on the other leg",
             "Slowly lower the leg & raise it again while flexing the gluts",
             "Repeat with your other leg"
         ],
@@ -3617,7 +3617,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "cable"
         ],
         "steps": [
-            "St&ing at a cable tower attach an ankle cuff to a low pulley",
+            "Standing at a cable tower attach an ankle cuff to a low pulley",
             "Facing the weight stack, with a slight bend in your knees & your abs drawn in",
             "Slowly kick your ankle back in & arc as high as you are able to",
             "Return to starting position & switch ankles"
@@ -3683,7 +3683,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "steps": [
             "Start by placing a barbell across your upper back, using a grip slightly wider than your shoulders",
-            "St& with your feet about 8 inches apart, toes facing forward",
+            "Stand with your feet about 8 inches apart, toes facing forward",
             "Take a step forward (2-3 feet) keeping your abs drawn in & your upper body straight",
             "Slowly lower one knee down as if kneeling while keeping your other knee bent at a 90 degree angle, do not let your knee touch the ground",
             "Lower your body so that your rear knee is just above the floor & hold for a moment before returning to the starting position",
@@ -3722,7 +3722,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "steps": [
             "Grasp a dumbbell in each h&",
-            "St& with your feet about 8 inches apart, toes facing forward",
+            "Stand with your feet about 8 inches apart, toes facing forward",
             "Take a step forward (2-3 feet) keeping your abs drawn in & your upper body straight",
             "Slowly lower one knee down as if kneeling while keeping your other knee bent at a 90 degree angle, do not let your knee touch the ground",
             "Lower your body so that the rear knee is just above the floor & hold for a moment before returning to the starting position",
@@ -3826,8 +3826,8 @@ data class ExerciseJSONData(val unimportantString: String) {
             "Place a barbell in front of your feet on the ground",
             "Grasp the barbell with a grip a bit wider than shoulder width apart",
             "Bend your knees slightly, keeping your hips & back straight",
-            "Lift the bar straight up concentrating on using your hips as you st&",
-            "St& with the bar resting against your thighs",
+            "Lift the bar straight up concentrating on using your hips as you stand",
+            "Stand with the bar resting against your thighs",
             "Lower the bar to the floor with a slight bend in your knees flexing your hips back for stability"
         ],
         "tips": [],
@@ -3873,8 +3873,8 @@ data class ExerciseJSONData(val unimportantString: String) {
     },
     {
         "id": "0120",
-        "name": "st&ing-leg-curls",
-        "title": "St&ing Leg Curls",
+        "name": "standing-leg-curls",
+        "title": "Standing Leg Curls",
         "primer": "An exercise for hamstring strengthening",
         "type": "Isolation",
         "primary": [
@@ -3885,7 +3885,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "machine"
         ],
         "steps": [
-            "St&ing at a leg curl machine adjust the rear footpad so it is just above your ankle",
+            "Standing at a leg curl machine adjust the rear footpad so it is just above your ankle",
             "Grasp the h&les of the machine for support & draw your abs in",
             "Raise your foot up towards your back slowly",
             "Return to the starting position & chance legs"
@@ -3921,7 +3921,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "steps": [
             "Start by grasping a dumbbell in each h&",
-            "St& with your feet about 8 inches apart, toes facing forward",
+            "Stand with your feet about 8 inches apart, toes facing forward",
             "Take a lunge forward keeping your abs drawn in & your upper body straight",
             "Slowly lower one knee down as if kneeling while keeping your other knee bent at a 90 degree angle, do not let your knee touch the ground",
             "Lower your body to just above the floor & hold for a moment before pushing off with the back foot",
@@ -3996,7 +3996,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "Lie face up on a Hack Squat machine with your shoulders against the pad",
             "Place your feet facing forward at slightly less than shoulder width apart with your toes point slightly outward",
             "Release the dock levers & place your h&s on the h& grips",
-            "Drawing your abs in, extend your body st&ing upright",
+            "Drawing your abs in, extend your body standing upright",
             "Lower your body to a squatting position so you knees are bent as if you were sitting down",
             "Return to the starting position"
         ],
@@ -4066,7 +4066,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "steps": [
             "Another variation of the basic Squat that focuses primarily on the quadriceps or thigh muscles",
-            "Place the barbell on the floor just behind your legs & st& with your feet shoulder width apart with your toes pointing forward",
+            "Place the barbell on the floor just behind your legs & stand with your feet shoulder width apart with your toes pointing forward",
             "With your feet firmly placed on the floor, reach down & grasp the barbell from behind with an overh& grip",
             "Lift the barbell by extending your hips & knees, taking care not to lock your knees",
             "Lower yourself (squat) down until your thighs are parallel to the floor",
@@ -4102,7 +4102,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         "steps": [
             "Another variation of the basic Squat that focuses primarily on the quadriceps, or thigh muscles, while using the Smith Machine",
             "Adjust the bar to a low setting just above your ankles",
-            "St& with the bar on the floor just behind your legs, with your feet shoulder width apart & your toes pointing forward",
+            "Stand with the bar on the floor just behind your legs, with your feet shoulder width apart & your toes pointing forward",
             "With your feet firmly placed on the floor reach down & grasp the bar from behind, with an overh& grip",
             "Lift the bar by extending your hips & knees, taking care not to lock your knees",
             "Lower yourself (squat) down until your thighs are parallel to the floor",
@@ -4177,7 +4177,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         "steps": [
             "Place a barbell on a rack at chest height",
             "Lift the barbell of of the rack & onto your shoulders, gripping the bar slightly wider than shoulder width apart",
-            "St& with your feet approximately 8 inches apart with your toes pointing forward",
+            "Stand with your feet approximately 8 inches apart with your toes pointing forward",
             "Slowly take a step backward with your right leg",
             "Keeping your abs drawn in & your upper body straight, lower your body until your left knee is almost on the ground. You may choose to place a mat or towel under your knee",
             "Hold for a moment & then return to starting position"
@@ -4215,7 +4215,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         "steps": [
             "An advanced version of a lunge",
             "Grasp a dumbbell in each h&",
-            "St& with your feet approximately 8 inches apart with your toes pointing forward",
+            "Stand with your feet approximately 8 inches apart with your toes pointing forward",
             "Slowly take a step backward with your right leg",
             "Keeping your abs drawn in & your upper body straight, lower your body until your left knee is almost on the ground. You may choose to place a mat or towel under your knee",
             "Hold for a moment & then return to starting position"
@@ -4251,7 +4251,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         "steps": [
             "This is a great overall exercise for the lower body that uses dumbbells instead of a barbell. Beginners may find this version easier to perform",
             "Grasp a dumbbell in each h&",
-            "St& with feet slightly wider than shoulder width apart with your knees & toes pointed slightly outward",
+            "Stand with feet slightly wider than shoulder width apart with your knees & toes pointed slightly outward",
             "Drawing your abs in descend slowly by bending at the knees & hips as if you are sitting down (squatting)",
             "Lower yourself as far as you can control without letting your body shift towards your toes (this will cause you to loose balance)",
             "Pause in the downward position & slowly return upright to the starting position",
@@ -4286,7 +4286,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "steps": [
             "Place a barbell on your shoulders & grasp it with a wide grip",
-            "St& with your feet wide apart, with the foot of the leg you will be leaning towards angled out",
+            "Stand with your feet wide apart, with the foot of the leg you will be leaning towards angled out",
             "Bring your lower body to your foot by bending the hip & knee of your lead leg, & keeping your other leg fairly straight",
             "Return to the starting position & switch legs"
         ],
@@ -4429,9 +4429,9 @@ data class ExerciseJSONData(val unimportantString: String) {
             "cable"
         ],
         "steps": [
-            "St& alongside a cable pulley stack & attach a cuff to the pulley & your ankle",
+            "Stand alongside a cable pulley stack & attach a cuff to the pulley & your ankle",
             "Step away from the stack, holding onto the stack for support",
-            "St&ing firm on the foot not attached to the cable & slowly abduct, or pull, your cuffed ankle in front of your stabilizing leg",
+            "Standing firm on the foot not attached to the cable & slowly abduct, or pull, your cuffed ankle in front of your stabilizing leg",
             "Repeat & switch ankles"
         ],
         "tips": [],
@@ -4615,8 +4615,8 @@ data class ExerciseJSONData(val unimportantString: String) {
             "Dumbbells"
         ],
         "steps": [
-            "With a dumbbell in each h&, st& in a low squat stance, your feet shoulder width arms held out in front of you with your palms facing in",
-            "St&ing upright, move your arms out & away from your body forming a “T” or “cross”",
+            "With a dumbbell in each h&, stand in a low squat stance, your feet shoulder width arms held out in front of you with your palms facing in",
+            "Standing upright, move your arms out & away from your body forming a “T” or “cross”",
             "Note: Do this exercise with light weights until you are comfortable with the movements"
         ],
         "tips": [],
@@ -4647,7 +4647,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "This is a rarely used exercise which is without question one of the best exercises for building & shaping the inner thighs",
             "Place a barbell between your legs so it is perpendicular to your feet",
             "Grasp the barbell with one h& in front of you & one h& behind you with an overh& grip",
-            "Squatting down so your thighs are parallel to the floor slowly lift the weight up between your legs as you st&",
+            "Squatting down so your thighs are parallel to the floor slowly lift the weight up between your legs as you stand",
             "Slowly return to a starting position just above the floor"
         ],
         "tips": [],
@@ -4784,7 +4784,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "Lie face up on a Hack Squat machine with your shoulders against the pad",
             "Place your feet facing forward at a distance of 6 inches apart with your toes point slightly outward",
             "Release the dock levers & place your h&s on the h&grips",
-            "Drawing your abs in, extend your body st&ing upright",
+            "Drawing your abs in, extend your body standing upright",
             "Lower your body to a squatting position so your knees are bent as if you were sitting down",
             "Return to the starting position"
         ],
@@ -4901,7 +4901,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         "steps": [
             "An advanced exercise that works most of the muscles of the body",
             "Exercises like this are used to develop functional strength for sports that require strong h&s",
-            "St& with your feet shoulder width apart, & a slight bend in your knees",
+            "Stand with your feet shoulder width apart, & a slight bend in your knees",
             "Grasp the bar with an overhead grip",
             "Starting with the barbell held slightly above the knees (hang position), lift the weight up over your head (step 1) then back to shoulder height (step 2) & finally back to starting position between near your knees"
         ],
@@ -4939,7 +4939,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "steps": [
             "An advanced exercise that works most of the muscles of the body. Exercises like this are used to develop functional strength for sports that require strong h&s",
-            "St& besides a barbell placed on the floor",
+            "Stand besides a barbell placed on the floor",
             "Grasp the bar with an overh& grip in the center",
             "Crouching down as if your were performing a squat, bend down so your thighs are parallel with the floor",
             "Extend your legs slowly as you straighten your body up, drawing in your abs as you rise",
@@ -4977,7 +4977,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "Barbell"
         ],
         "steps": [
-            "St& with your feet a bit wider than shoulder width apart with your toes pointed slightly outward",
+            "Stand with your feet a bit wider than shoulder width apart with your toes pointed slightly outward",
             "Grasp a barbell using a wide side snatch grip with your arms & elbows fully extended",
             "Keeping the bar overhead, bend your knees & lower your body until your thighs are parallel with the floor",
             "Return to starting position",
@@ -5012,7 +5012,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "Dumbbell"
         ],
         "steps": [
-            "St& with your feet 2-4 inches wider than your shoulders, with your toes pointed out at a 45 degree angle",
+            "Stand with your feet 2-4 inches wider than your shoulders, with your toes pointed out at a 45 degree angle",
             "Grasp a dumbbell with both h&s in the center of your body",
             "Keep your knees slightly bent & your back straight",
             "Squat down as if you were going to sit in a chair, bringing your thighs parallel to the floor",
@@ -5034,7 +5034,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         "id": "0154",
         "name": "speed-squats-with-barbell",
         "title": "Speed Squats: Barbell",
-        "primer": "This version of the squat uses an empty barbell & moves at a faster pace than the st&ard squat",
+        "primer": "This version of the squat uses an empty barbell & moves at a faster pace than the standard squat",
         "type": "Compound",
         "primary": [
             "quadriceps"
@@ -5049,7 +5049,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "Barbell"
         ],
         "steps": [
-            "This version of the squat uses an empty barbell & moves at a faster pace than the st&ard squat. This is a good exercise for building speed & conditioning used in running & jumping sports",
+            "This version of the squat uses an empty barbell & moves at a faster pace than the standard squat. This is a good exercise for building speed & conditioning used in running & jumping sports",
             "Place your feet slightly wider than shoulder width apart with your knees & toes pointed slightly outward",
             "Drawing your abs in, descend slowly by bending at the knees & hips as if you are sitting down (squatting)",
             "Lower yourself as far as you can control without letting your body shift towards your toes (this will cause you to loose balance)",
@@ -5086,7 +5086,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "exercise band"
         ],
         "steps": [
-            "St& with your feet on the exercise bands with your feet shoulder width apart",
+            "Stand with your feet on the exercise bands with your feet shoulder width apart",
             "Grasp the h&les of the bands & pull them up to your shoulders",
             "With your abs drawn in, squat down until your thighs are parallel with the floor",
             "Slowly return to the starting position",
@@ -5217,7 +5217,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "steps": [
             "Lifting a barbell off of a weight rack, position it on your shoulders",
-            "St& with your feet wider than shoulder width apart (about 30 inches apart) with your toes pointing out",
+            "Stand with your feet wider than shoulder width apart (about 30 inches apart) with your toes pointing out",
             "Drawing your abs in descend slowly by bending at the knees & hips as if you are sitting down (squatting)",
             "Lower yourself as far as you can control without letting your body shift towards your toes (this will cause you to loose balance)",
             "Pause in the downward position & slowly return upright to the starting position",
@@ -5420,7 +5420,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "steps": [
             "Place a cable pulley on the highest setting & adjust a stirrup h&le to the pulley",
-            "St& facing the weight stack & grasp the h&le with & underh& grip",
+            "Stand facing the weight stack & grasp the h&le with & underh& grip",
             "Keep your back straight, your abs drawn in & your knees slightly bent",
             "Starting at the top, push your arm down until it is straight, feeling the concentration in your tricep",
             "Slowly return to starting position",
@@ -6112,7 +6112,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "cable"
         ],
         "steps": [
-            "St& in front of a cable machine & attach a bar to a high pulley",
+            "Stand in front of a cable machine & attach a bar to a high pulley",
             "Grasp the h&le with palms facing up",
             "Keeping your elbows at your side, pull the h&le down towards your thighs",
             "Pause for a moment & then return to the starting position",
@@ -6329,7 +6329,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "Dumbbell"
         ],
         "steps": [
-            "St& with your feet shoulder width apart, your abs drawn in & your back straight as you bend at the waist",
+            "Stand with your feet shoulder width apart, your abs drawn in & your back straight as you bend at the waist",
             "Hold a dumbbell in your right h&",
             "Bring your right arm up to your side so the dumbbell is almost parallel to your chest, keeping your lower arm vertical & press your arm back in arc",
             "Return to the starting position repeat & switch arms"
@@ -6359,7 +6359,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "Dumbbell"
         ],
         "steps": [
-            "St& with your feet shoulder width apart, your abs drawn in & your back straight as you bend at the waist until your upper body is parallel to the floor",
+            "Stand with your feet shoulder width apart, your abs drawn in & your back straight as you bend at the waist until your upper body is parallel to the floor",
             "Hold a dumbbell in each h&",
             "Bring your right arm up to your side so the dumbbell in line with your chest, keeping your lower arm vertical & press your arm back in arc",
             "Return to the starting position repeat & switch arms"
@@ -6377,8 +6377,8 @@ data class ExerciseJSONData(val unimportantString: String) {
     },
     {
         "id": "0198",
-        "name": "st&ing-triceps-extension-2",
-        "title": "Triceps Extension: Dumbbell (St&ing)",
+        "name": "standing-triceps-extension-2",
+        "title": "Triceps Extension: Dumbbell (Standing)",
         "primer": "This exercise works the triceps by reaching behind your neck",
         "type": "Isolation",
         "primary": [
@@ -6389,7 +6389,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "Dumbbell"
         ],
         "steps": [
-            "St& with your feet shoulder width apart, your back straight & your abs drawn in",
+            "Stand with your feet shoulder width apart, your back straight & your abs drawn in",
             "Hold a dumbbell in both h&s, with your palms facing up",
             "Raise the dumbbell over your head & slowly lower the dumbbell in an arc behind your head",
             "Slowly raise the dumbbell back up to the starting position"
@@ -6422,7 +6422,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "steps": [
             "Attach a h&le to a low cable pulley machine",
-            "St& with your back to the weight stack, your feet shoulder width apart",
+            "Stand with your back to the weight stack, your feet shoulder width apart",
             "With your left h&, reach behind you & grasp the h&le",
             "Place your right h& on your left elbow for support",
             "Extend your left arm straight up towards the ceiling & then lower it to the starting position",
@@ -6441,8 +6441,8 @@ data class ExerciseJSONData(val unimportantString: String) {
     },
     {
         "id": "0200",
-        "name": "st&ing-one-arm-triceps-extension-with-dumbbell",
-        "title": "Triceps Extension: Dumbbell (St&ing, One Arm)",
+        "name": "standing-one-arm-triceps-extension-with-dumbbell",
+        "title": "Triceps Extension: Dumbbell (Standing, One Arm)",
         "primer": "This is a single arm version of a behind the neck triceps exercise",
         "type": "Isolation",
         "primary": [
@@ -6453,7 +6453,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "Dumbbell"
         ],
         "steps": [
-            "St& with your feet shoulder width apart, your back straight & your abs drawn in",
+            "Stand with your feet shoulder width apart, your back straight & your abs drawn in",
             "Hold a dumbbell in your right h& with your palms facing up",
             "Raise the dumbbell over your head & slowly lower the dumbbell in an arc behind your head, so that the dumbbell lines up with your spine",
             "Slowly raise the dumbbell back up to the starting position",
@@ -6467,8 +6467,8 @@ data class ExerciseJSONData(val unimportantString: String) {
     },
     {
         "id": "0201",
-        "name": "st&ing-overhead-triceps-extension-with-barbell",
-        "title": "Triceps Extension: Barbell (St&ing, Overhead)",
+        "name": "standing-overhead-triceps-extension-with-barbell",
+        "title": "Triceps Extension: Barbell (Standing, Overhead)",
         "primer": "This is a double arm barbell version of a behind the neck triceps exercise",
         "type": "Isolation",
         "primary": [
@@ -6479,7 +6479,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "Barbell"
         ],
         "steps": [
-            "St& with your feet shoulder width apart, your back straight & your abs drawn in",
+            "Stand with your feet shoulder width apart, your back straight & your abs drawn in",
             "Hold a barbell or EZ Curl bar about 6-8 inches apart with your palms facing up",
             "Raise the bar over your head & slowly lower the dumbbell in an arc behind your head, towards your back",
             "Slowly raise the bar back up to the starting position",
@@ -6498,8 +6498,8 @@ data class ExerciseJSONData(val unimportantString: String) {
     },
     {
         "id": "0202",
-        "name": "st&ing-triceps-extension-with-towel",
-        "title": "Triceps Extension: Towel (St&ing)",
+        "name": "standing-triceps-extension-with-towel",
+        "title": "Triceps Extension: Towel (Standing)",
         "primer": "This exercise requires another person & uses manual resistance, or your body’s own weight to build muscle",
         "type": "Isolation",
         "primary": [
@@ -6511,7 +6511,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "towel"
         ],
         "steps": [
-            "St& with your feet shoulder width apart, your back straight & your abs drawn in",
+            "Stand with your feet shoulder width apart, your back straight & your abs drawn in",
             "Hold a towel or rope facing up behind & in back of your head",
             "Have a partner hold the towel taught during the exercise so the resistance is constant",
             "Lower your forearms down until they reach your biceps, then slowly raise your arms back up to starting position",
@@ -6572,7 +6572,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "Dumbbell"
         ],
         "steps": [
-            "St&ing along side a flat bench, bend your left knee & place it on the bench",
+            "Standing along side a flat bench, bend your left knee & place it on the bench",
             "Place your left h& on the bench for support, keeping your back at a 45 degree angle",
             "Hold a dumbbell in your right h& & place your right foot on the floor",
             "Bend your right arm & raise it up to your shoulder, then with controlled motion kick it back, fully extending your arm",
@@ -6604,7 +6604,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "cable"
         ],
         "steps": [
-            "St& in front of a cable machine & attach a short bar to a high pulley",
+            "Stand in front of a cable machine & attach a short bar to a high pulley",
             "Grasp the h&le with your palms facing down",
             "Draw your abs in & keep your back straight",
             "Keeping your elbows at your side push the h&le down towards your thighs",
@@ -6636,7 +6636,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "cable"
         ],
         "steps": [
-            "St& in front of a cable machine & attach a rope to a high pulley",
+            "Stand in front of a cable machine & attach a rope to a high pulley",
             "Grasp the rope with palms facing down",
             "Draw your abs in & keep your back straight",
             "Keeping your elbows at your side push the rope down towards your thighs, if possible “split” the rope apart at the bottom",
@@ -6671,7 +6671,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         "steps": [
             "This exercise is the triceps pushdown uses a V shaped bar. Many people find this version easier on the elbows",
             "Steps",
-            "St& in front of a cable machine & attach a V Bar to a high pulley",
+            "Stand in front of a cable machine & attach a V Bar to a high pulley",
             "Grasp the bar with palms facing down",
             "Draw your abs in & keep your back straight",
             "Keeping your elbows at your side push the bar down towards your thighs",
@@ -6801,7 +6801,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "steps": [
             "This is a basic exercise for the biceps (arms)",
-            "St& with your feet shoulder width apart, your knees slightly bent & your abs drawn in",
+            "Stand with your feet shoulder width apart, your knees slightly bent & your abs drawn in",
             "Grasp a barbell with palms facing up, approximately shoulder width apart",
             "Lower your arms fully to above your thighs & bending only your elbows, raise the bar to your upper chest",
             "Pause for a moment & then return to the starting position",
@@ -6820,8 +6820,8 @@ data class ExerciseJSONData(val unimportantString: String) {
     },
     {
         "id": "0212",
-        "name": "st&ing-biceps-curl-with-cable",
-        "title": "St&ing Biceps Curl with Cable",
+        "name": "standing-biceps-curl-with-cable",
+        "title": "Standing Biceps Curl with Cable",
         "primer": "This version of the biceps curl uses a cable instead of a barbell to work the muscles of the arms",
         "type": "Isolation",
         "primary": [
@@ -6836,7 +6836,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "steps": [
             "Attach a short bar to a cable pulley to the bottom of the weight stack",
-            "St& with your feet shoulder width apart, your knees slightly bent & your abs drawn in",
+            "Stand with your feet shoulder width apart, your knees slightly bent & your abs drawn in",
             "Grasp the bar with palms facing up, & h&s fairly close together",
             "Lower your arms fully to above your thighs & bending only your elbows, raise the bar to your upper chest",
             "Pause for a moment & then return to the starting position",
@@ -6870,7 +6870,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "steps": [
             "This exercise uses a hammering (up & down) motion to isolate the biceps",
-            "St& with our feet shoulder width apart, your knees slightly bent & your abs drawn in",
+            "Stand with our feet shoulder width apart, your knees slightly bent & your abs drawn in",
             "Grasp a dumbbell in each h& so your palms are facing each other",
             "Extend your arms so they are at the sides of your body",
             "Keeping your elbows locked lift your left arm in an arc towards your left shoulder",
@@ -6967,7 +6967,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "steps": [
             "Using the rope with the cable machine allows you isolate the biceps with this version of the Hammer Curl. This is a good exercise for beginners",
-            "Attach a rope to a cable pulley to the bottom of the weight stack. St& with your feet shoulder width apart, your knees slightly bent & your abs drawn in. Grasp the rope with a close underh& grip (palms facing up). Lower your arms fully to above your thighs & bending only your elbows, raise the rope to your upper chest. Pause for a moment & then return to the starting position",
+            "Attach a rope to a cable pulley to the bottom of the weight stack. Stand with your feet shoulder width apart, your knees slightly bent & your abs drawn in. Grasp the rope with a close underh& grip (palms facing up). Lower your arms fully to above your thighs & bending only your elbows, raise the rope to your upper chest. Pause for a moment & then return to the starting position",
             "Note: Keep your elbows at your side throughout this exercise. Do not swing your hips or back during this exercise"
         ],
         "tips": [],
@@ -7031,7 +7031,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "Barbell"
         ],
         "steps": [
-            "St& with your feet shoulder width apart, your knees slightly bent & your abs drawn in",
+            "Stand with your feet shoulder width apart, your knees slightly bent & your abs drawn in",
             "Grasp an EZ bar with an underh& close (4 inch) grip on the innermost part of the bar",
             "Extend your arms fully against your thighs",
             "Keeping your elbows straight, raise the bar towards your chest",
@@ -7051,9 +7051,9 @@ data class ExerciseJSONData(val unimportantString: String) {
     },
     {
         "id": "0219",
-        "name": "close-grip-st&ing-biceps-curls-with-barbell",
-        "title": "Close Grip St&ing Biceps Curls with Barbell",
-        "primer": "This exercise uses a st&ard barbell to isolate the biceps during a curl",
+        "name": "close-grip-standing-biceps-curls-with-barbell",
+        "title": "Close Grip Standing Biceps Curls with Barbell",
+        "primer": "This exercise uses a standard barbell to isolate the biceps during a curl",
         "type": "Isolation",
         "primary": [
             "biceps brachii"
@@ -7065,7 +7065,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "Barbell"
         ],
         "steps": [
-            "St& with your feet shoulder width apart, your knees slightly bent & your abs drawn in",
+            "Stand with your feet shoulder width apart, your knees slightly bent & your abs drawn in",
             "Grasp a barbell with palms up, about 12 inches apart",
             "Extend your arms fully against your thighs",
             "Keeping your elbows straight, raise the bar towards your chest until your forearms touch your chest",
@@ -7121,7 +7121,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         "id": "0221",
         "name": "cross-body-hammer-curl-with-dumbbell",
         "title": "Cross Body Hammer Curl with Dumbbell",
-        "primer": "This exercise targets the biceps using a crossing motion rather than a st&ard curl",
+        "primer": "This exercise targets the biceps using a crossing motion rather than a standard curl",
         "type": "Isolation",
         "primary": [
             "biceps brachii"
@@ -7133,7 +7133,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "Dumbbell"
         ],
         "steps": [
-            "While st&ing, grab a dumbbell in each arm with palms facing in",
+            "While standing, grab a dumbbell in each arm with palms facing in",
             "Keeping your palms facing in (& not twisting your arms) curl the dumbbell up towards your opposite shoulder",
             "Bring the top of dumbbell up to & touching the shoulder",
             "Slowly with a controlled manner, lower the dumbbell back to the starting position"
@@ -7166,7 +7166,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "steps": [
             "This exercise is credited to the late Vince Gironda, the “Iron Guru”. It not only blasts the biceps & works the forearms as well",
-            "St& with your feet shoulder width apart, your knees slightly bent, & your abs drawn in",
+            "Stand with your feet shoulder width apart, your knees slightly bent, & your abs drawn in",
             "Grasp the bar with palms down, shoulder width apart",
             "Extend your arms fully so they are against your thighs",
             "Slowly raise your arms, palms down, to touch your chest",
@@ -7200,7 +7200,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "steps": [
             "Steps",
-            "St& with your feet shoulder width apart, your knees slightly bent & your abs drawn in",
+            "Stand with your feet shoulder width apart, your knees slightly bent & your abs drawn in",
             "Grasp a dumbbell in each h& so your palms are facing up",
             "Extend your arms so they are at the sides of your body",
             "Keeping your elbows locked lift your left arm to your chest so that your forearm touches your bicep",
@@ -7234,7 +7234,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "Dumbbell"
         ],
         "steps": [
-            "St& with our feet shoulder width apart, your knees slightly bent & your abs drawn in",
+            "Stand with our feet shoulder width apart, your knees slightly bent & your abs drawn in",
             "Grasp a dumbbell in each h& with your palms facing up",
             "Extend your arms so they are at the sides of your body",
             "Keeping your elbows, locked lift your arms to your chest so that your forearms touch your biceps",
@@ -7301,7 +7301,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "Barbell"
         ],
         "steps": [
-            "St& with your feet shoulder width apart & your knees slightly bent",
+            "Stand with your feet shoulder width apart & your knees slightly bent",
             "Grasp the barbell with palms up",
             "Lower the bar so it is against your thighs",
             "Keeping your elbows still, raise the bar up to your chest so that your forearms touch your biceps",
@@ -7333,7 +7333,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "steps": [
             "This exercise uses a hammering (up & down) motion to isolate the biceps",
-            " St& with your feet shoulder width apart, your knees slightly bent & your abs drawn in",
+            " Stand with your feet shoulder width apart, your knees slightly bent & your abs drawn in",
             "Grasp a dumbbell in each h& so your palms are facing each other",
             "Extend your arms so they are at the sides of your body",
             "Keeping your elbows locked lift your arms in an arc towards your shoulders",
@@ -7479,7 +7479,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         "id": "0232",
         "name": "lying-bicep-cable-curl",
         "title": "Lying Bicep Cable Curl",
-        "primer": "By lying down you are able to isolate the muscles of your biceps without st&ing or sitting",
+        "primer": "By lying down you are able to isolate the muscles of your biceps without standing or sitting",
         "type": "Isolation",
         "primary": [
             "biceps brachii"
@@ -7686,7 +7686,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         "steps": [
             "By using cable this exercise isolates & defines the biceps (arm) muscles",
             "Attach a stirrup h&le to each side of a high pulley on a cable machine",
-            "Grasp the h&les with palms facing up & st& with your feet shoulder width apart",
+            "Grasp the h&les with palms facing up & stand with your feet shoulder width apart",
             "Extend your arms fully to each side",
             "Keeping your elbows steady, curl your wrists towards the sides of your head",
             "Contract your biceps & pause for a moment",
@@ -7785,7 +7785,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "weight plate"
         ],
         "steps": [
-            "St& with your feet shoulder width apart, your knees slightly bent & your abs drawn in",
+            "Stand with your feet shoulder width apart, your knees slightly bent & your abs drawn in",
             "Grasp a plate in your h&s with palms facing down, at the 11:00 & 1:00 o’clock position",
             "Keeping your elbows & arms at your side, curl the slowly up towards your head",
             "Slowly return to the starting position"
@@ -7934,8 +7934,8 @@ data class ExerciseJSONData(val unimportantString: String) {
     },
     {
         "id": "0246",
-        "name": "st&ing-inner-biceps-curl-with-dumbbell",
-        "title": "St&ing Inner Biceps Curl with Dumbbell",
+        "name": "standing-inner-biceps-curl-with-dumbbell",
+        "title": "Standing Inner Biceps Curl with Dumbbell",
         "primer": "This exercise works the inner biceps",
         "type": "Isolation",
         "primary": [
@@ -7948,7 +7948,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "Dumbbell"
         ],
         "steps": [
-            "St& with your feet shoulder width apart, your knees slightly bent & your abs drawn in",
+            "Stand with your feet shoulder width apart, your knees slightly bent & your abs drawn in",
             "Grasp a dumbbell in each arm with your palms facing each other, fully extend your arms along your sides",
             "Curl your arms up & out, turning your palms up & out as you lift",
             "Slowly lower the dumbbells to the starting position",
@@ -7967,8 +7967,8 @@ data class ExerciseJSONData(val unimportantString: String) {
     },
     {
         "id": "0247",
-        "name": "st&ing-one-arm-biceps-curl-with-cable",
-        "title": "St&ing One Arm Bicep Curl with Cable",
+        "name": "standing-one-arm-biceps-curl-with-cable",
+        "title": "Standing One Arm Bicep Curl with Cable",
         "primer": "This is a single arm version of a bicep cable curl",
         "type": "Isolation",
         "primary": [
@@ -7983,7 +7983,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         "steps": [
             "This is a single arm version of a bicep cable curl. Cable machines are great for helping you learn proper form while building muscle",
             "Attach a stirrup bar to a low cable pulley",
-            "St& of the side of the weight stack with your legs shoulder width apart & your knees slightly bent & your abs drawn in",
+            "Stand of the side of the weight stack with your legs shoulder width apart & your knees slightly bent & your abs drawn in",
             "Grasp the stirrup in one h& with an palms facing up",
             "Lower the stirrup to the top of your thighs",
             "Keeping your elbows still, curl the stirrup up towards your chest",
@@ -8002,8 +8002,8 @@ data class ExerciseJSONData(val unimportantString: String) {
     },
     {
         "id": "0248",
-        "name": "st&ing-one-arm-curl-over-incline-bench-with-dumbbell",
-        "title": "St&ing One Arm Curl Over Incline Bench with Dumbbell",
+        "name": "standing-one-arm-curl-over-incline-bench-with-dumbbell",
+        "title": "Standing One Arm Curl Over Incline Bench with Dumbbell",
         "primer": "",
         "type": "Isolation",
         "primary": [
@@ -8017,7 +8017,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "steps": [
             "This exercise is a great alternative to the Preacher Curl",
-            "St& in front of an incline bench so your arm is resting on the top of the angled portion of the bench",
+            "Stand in front of an incline bench so your arm is resting on the top of the angled portion of the bench",
             "Grasp a dumbbell in your h& with palms facing up",
             "Rest your arm against the back bench & extend it fully down",
             "Keeping your arm on the bench at all times, curl the dumbbell up towards your head",
@@ -8073,8 +8073,8 @@ data class ExerciseJSONData(val unimportantString: String) {
     },
     {
         "id": "0250",
-        "name": "wide-grip-st&ing-biceps-curl-with-barbell",
-        "title": "Wide Grip St&ing Biceps Curl with Barbell",
+        "name": "wide-grip-standing-biceps-curl-with-barbell",
+        "title": "Wide Grip Standing Biceps Curl with Barbell",
         "primer": "This is a wide grip version of a biceps curl",
         "type": "Isolation",
         "primary": [
@@ -8088,7 +8088,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "steps": [
             "This is a wide grip version of a biceps curl. The wider grip targets the lateral or outer portion of the muscle",
-            "St& with your feet shoulder width apart, your knees slightly bent & your abs drawn in",
+            "Stand with your feet shoulder width apart, your knees slightly bent & your abs drawn in",
             "Grasp a barbell with palms up as wide as you comfortably can",
             "Extend your arms fully against your thighs",
             "Keeping your elbows straight, raise the bar towards your chest until your forearms touch your chest",
@@ -8122,7 +8122,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "Dumbbell"
         ],
         "steps": [
-            "St& with your feet shoulder width apart, your knees slightly bent & your & your abs drawn in",
+            "Stand with your feet shoulder width apart, your knees slightly bent & your & your abs drawn in",
             "Grasp a dumbbell in each h& with your palms facing each other",
             "Start with your h&s at your sides",
             "Curl your arms up turning your wrists so they are facing down as the dumbbells reach your chest",
@@ -8220,7 +8220,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "Barbell"
         ],
         "steps": [
-            "St& with your feet shoulder width apart & your knees slightly bent",
+            "Stand with your feet shoulder width apart & your knees slightly bent",
             "Grasp an Olympic bar (empty weight bar) in the middle with one h& so that the bar is equally balanced",
             "Keep your free h& at your side for support",
             "Curl the bar up so your forearm touches your bicep",
@@ -8289,7 +8289,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "steps": [
             "This exercise combines a squat with a curl to effectively work the entire body. An advanced exercise",
-            "St& with your feet shoulder width apart, your knees slightly bent & your abs drawn in",
+            "Stand with your feet shoulder width apart, your knees slightly bent & your abs drawn in",
             "Grasp a dumbbell in each h& & curl your arms up to your shoulders",
             "Bending at the waist, squat down as you lower your h&s to the floor (the lower part of a curl)",
             "Pause for a moment & then return to the starting position",
@@ -8322,7 +8322,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "Dumbbell"
         ],
         "steps": [
-            "St& with your feet shoulder width apart, your knees slightly bent & your abs drawn in",
+            "Stand with your feet shoulder width apart, your knees slightly bent & your abs drawn in",
             "Grasp a dumbbell in each h& with palms facing down",
             "Keeping your arms at your side your elbows steady, lift the dumbbells up towards your shoulders",
             "Pause for a moment & then return to the starting position"
@@ -8393,10 +8393,10 @@ data class ExerciseJSONData(val unimportantString: String) {
         "steps": [
             "An advanced exercise. This exercise combines a bicep curl with a deadlift",
             "Grasp an EZ Curl or barbell with palms facing up",
-            "St&ing with your feet shoulder width apart & your knees slightly bent, draw your abs in",
+            "Standing with your feet shoulder width apart & your knees slightly bent, draw your abs in",
             "Extend your arms so the bar rests in front of your thighs",
             "Bending at the waist, bring the bar down to just above the floor",
-            "As you return to a st&ing position, bring the bar up & curl your arms bringing your forearms to your biceps",
+            "As you return to a standing position, bring the bar up & curl your arms bringing your forearms to your biceps",
             "Return the starting position & repeat",
             "Note: Performing this exercise in front of a mirror may help you spot & correct your form"
         ],
@@ -8465,7 +8465,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "steps": [
             "Place a bungy under your feet & hold the h&les palms forward in your h&s",
-            "St& with your feet shoulder width apart, knees slightly bent & your abs drawn in",
+            "Stand with your feet shoulder width apart, knees slightly bent & your abs drawn in",
             "Curl your arms up & down in an alternating motion, keeping your body straight",
             "As you become comfortable with the motion, increase your speed",
             "Note: Contract your biceps as you curl your arms up"
@@ -8581,7 +8581,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "steps": [
             "Grasp a dumbbell in each h& with your palms facing up",
-            "St& with your feet together, your back straight & your abs drawn in",
+            "Stand with your feet together, your back straight & your abs drawn in",
             "Allow your arms to extend down fully in front of your thighs",
             "While keeping your body straight, take a step sideways & then bend your waist & your knee into a lunge",
             "As you go into the lunge, curl your arms up towards your shoulders contracting your biceps",
@@ -8621,7 +8621,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "steps": [
             "Grasp a dumbbell in each h& with your palms facing up",
-            "St& with your feet together, your back straight & your abs drawn in",
+            "Stand with your feet together, your back straight & your abs drawn in",
             "Allow your arms to extend down fully to the sides of your body",
             "While keeping your body straight, take a step forward then bend your waist & your knee into a lunge",
             "Be careful not to let your back knee drop to the floor",
@@ -8737,7 +8737,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "steps": [
             "Grasp a pair of dumbbells in each h&, palms facing up",
-            "St&ing on one foot, extend your other foot back (see illustration) & extend your arms down so they are h&ing in front of your leg",
+            "Standing on one foot, extend your other foot back (see illustration) & extend your arms down so they are h&ing in front of your leg",
             "While on one foot, curl your arms up contracting your biceps",
             "Return to the starting position & switch legs",
             "Note: Have a Personal Trainer or Instructor show you how to properly perform this exercise"
@@ -8805,7 +8805,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "Body"
         ],
         "steps": [
-            "St& on one foot near a chair or wall for support",
+            "Stand on one foot near a chair or wall for support",
             "Lift your foot off the ground & draw circles clockwise in the air with your toes",
             "Reverse the direction (counter-clockwise) as well as switch feet"
         ],
@@ -8926,7 +8926,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "steps": [
             "This exercise uses a band to create resistance",
-            "St& with your toes on an exercise band & raise the h&les up to your shoulders",
+            "Stand with your toes on an exercise band & raise the h&les up to your shoulders",
             "Raise up on your toes, keeping your h&s up by your shoulders",
             "Pause for a moment & then lower your heel to the floor",
             "Repeat"
@@ -9024,7 +9024,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "Body"
         ],
         "steps": [
-            "St& with your feet a little closer than shoulder width apart",
+            "Stand with your feet a little closer than shoulder width apart",
             "Keeping your arms across your chest or on your hips, move your knees in a circular motion, paying attention to keeping your feet flat on the floor & the movement in your ankles",
             "Note: Do not perform this exercise is you have rolled or unstable ankles"
         ],
@@ -9041,8 +9041,8 @@ data class ExerciseJSONData(val unimportantString: String) {
     },
     {
         "id": "0278",
-        "name": "rocking-st&ing-calf-raise-with-barbell",
-        "title": "Rocking St&ing Calf Raise with Barbell",
+        "name": "rocking-standing-calf-raise-with-barbell",
+        "title": "Rocking Standing Calf Raise with Barbell",
         "primer": "This exercise uses a simple rocking motion to strengthen the calves",
         "type": "Isolation",
         "primary": [
@@ -9054,7 +9054,7 @@ data class ExerciseJSONData(val unimportantString: String) {
             "Barbell"
         ],
         "steps": [
-            "St& with a bar across your shoulders",
+            "Stand with a bar across your shoulders",
             "With your feet flat on the floor, lift your feet up & forward as if you are performing a calf raise",
             "Then “rock” back onto your ankles so your toes are flexed & off the floor",
             "Return to starting position",
@@ -9120,7 +9120,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "steps": [
             "Place a block or low box under the bar at a Smith Machine",
-            "St& on the edge of the box with your toes hanging off",
+            "Stand on the edge of the box with your toes hanging off",
             "Place the bar across your shoulders & lean forward lifting your ankles off the box",
             "Return to the starting position",
             "Note: Use the bar for support as you perform this exercise"
@@ -9138,9 +9138,9 @@ data class ExerciseJSONData(val unimportantString: String) {
     },
     {
         "id": "0281",
-        "name": "st&ing-barbell-calf-raise",
-        "title": "St&ing Barbell Calf Raise",
-        "primer": "This is st&ing version of a Calf Raise",
+        "name": "standing-barbell-calf-raise",
+        "title": "Standing Barbell Calf Raise",
+        "primer": "This is standing version of a Calf Raise",
         "type": "Isolation",
         "primary": [
             "gastrocnemius",
@@ -9169,8 +9169,8 @@ data class ExerciseJSONData(val unimportantString: String) {
     },
     {
         "id": "0282",
-        "name": "st&ing-calf-raises-using-machine",
-        "title": "St&ing Calf Raises using Machine",
+        "name": "standing-calf-raises-using-machine",
+        "title": "Standing Calf Raises using Machine",
         "primer": "This exercise uses a machine to allow for proper form",
         "type": "Isolation",
         "primary": [
@@ -9183,7 +9183,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "steps": [
             "This exercise uses a machine to allow for proper form",
-            "St& with your toes on the footpad of the machine & adjust your shoulders under the upper pads",
+            "Stand with your toes on the footpad of the machine & adjust your shoulders under the upper pads",
             "Raise up on the balls of your feet, lifting your heels off the pad",
             "Hold for a moment & then return to the starting position"
         ],
@@ -9200,8 +9200,8 @@ data class ExerciseJSONData(val unimportantString: String) {
     },
     {
         "id": "0283",
-        "name": "st&ing-calf-raise-with-dumbbell",
-        "title": "St&ing Calf Raise with Dumbbell",
+        "name": "standing-calf-raise-with-dumbbell",
+        "title": "Standing Calf Raise with Dumbbell",
         "primer": "This version of a Calf Raise uses dumbbells",
         "type": "Isolation",
         "primary": [
@@ -9563,8 +9563,8 @@ data class ExerciseJSONData(val unimportantString: String) {
             "Dumbbell"
         ],
         "steps": [
-            "St& with your feet shoulder width apart, your knees slightly bent & your abs drawn in",
-            "Grasp a dumbbell in one h& & st&ing straight upright, bend at the waist as far as possible to one side",
+            "Stand with your feet shoulder width apart, your knees slightly bent & your abs drawn in",
+            "Grasp a dumbbell in one h& & standing straight upright, bend at the waist as far as possible to one side",
             "Slowly return back up to the staring position",
             "Switch the dumbbell to your other h& & repeat the exercise",
             "Note: Be careful to bend only at your waist & not at the hips or knees"
@@ -9690,7 +9690,7 @@ data class ExerciseJSONData(val unimportantString: String) {
         ],
         "steps": [
             "Grasp dumbbells in each h& with a pronated grip (palms facing back wards, your shoulder rotated forward",
-            "St& upright with your feet shoulder width apart & your knees slightly bent, contract your abdominals",
+            "Stand upright with your feet shoulder width apart & your knees slightly bent, contract your abdominals",
             "Slowly lift your arms up so elbows are bent & parallel with the floor while you squeeze your shoulders together",
             "then rotate your arms, bringing the dumbbells forward so that they are now above your shoulder & in line with your elbows",
             "In a controlled manner lower your arms & return to the starting position",
