@@ -7,6 +7,7 @@ import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.*
 import androidx.compose.runtime.Composable
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
@@ -14,7 +15,9 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.idklol.jotaro.LineText
 import com.idklol.jotaro.Models.Exercise
+import com.idklol.jotaro.TitleText
 
 
 @Composable
@@ -31,28 +34,16 @@ fun ExerciseCard(exercise: Exercise) {
     ) {
         // This inner column is the 'content' of the card
         Column(
-            modifier = Modifier.padding(16.dp)
+            modifier = Modifier.padding(16.dp),
+            verticalArrangement = Arrangement.Center,
+            horizontalAlignment = Alignment.CenterHorizontally
         ) {
             // Title of the exercise
-            Text(
-                text = exercise.title,
-                style = MaterialTheme.typography.h1,
-                textAlign = TextAlign.Start,
-                color = com.idklol.jotaro.ui.theme.jotaroDarkIntenseBlue,
-                fontSize = 22.sp,
-                fontWeight = FontWeight.Bold,
-                letterSpacing = 2.sp,
-//                modifier = Modifier.fillMaxWidth()
-            )
+            TitleText(exercise.title)
             Spacer(modifier = Modifier.height(8.dp))
 
             // Primer; Quick explanation of which muscles is used
-            Text(
-                text = exercise.primer,
-                style = MaterialTheme.typography.subtitle2,
-                textAlign = TextAlign.Center,
-//                modifier = Modifier.fillMaxWidth()
-            )
+            LineText(exercise.primer)
 
             // Formatters
             Spacer(modifier = Modifier.height(8.dp))

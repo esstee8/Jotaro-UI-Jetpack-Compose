@@ -24,12 +24,7 @@ class MainActivity : ComponentActivity() {
 //                }
             //                val backStackEntry = navController.currentBackStackEntryAsState()
 
-            Scaffold(
-                modifier = Modifier.padding(4.dp)
-            ) { padding ->
-
-                BottomNav()
-            }
+            BottomNav()
 
         }
     }

@@ -10,6 +10,7 @@ import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material.Icon
 import androidx.compose.material.Scaffold
 import androidx.compose.material.Text
+import androidx.compose.material3.Divider
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
@@ -35,6 +36,7 @@ fun BottomNav() {
         bottomBar = { BottomBar(navController = navController) }
     ) {
         Modifier.padding(it)
+        Divider(thickness = 3.dp)
         BottomNavGraph(
             navController = navController
         )
@@ -56,6 +58,7 @@ fun BottomBar(navController: NavHostController) {
         modifier = Modifier
             .padding(start = 10.dp, end = 10.dp, top = 8.dp, bottom = 8.dp)
             .background(Color.Transparent)
+//            .background(Color.DarkGray)
             .fillMaxWidth(),
         horizontalArrangement = Arrangement.SpaceEvenly,
         verticalAlignment = Alignment.CenterVertically
