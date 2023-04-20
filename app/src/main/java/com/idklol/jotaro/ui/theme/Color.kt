@@ -7,3 +7,4 @@ val jotaroPurple = Color(0xFF9642d3)
 val jotaroIntenseBlue = Color(0xFF07004C)
 val jotaroDarkIntenseBlue = Color(0xFF00012C) // the same as `jotaroColor`
 val pastelBlue = Color(0xFFAEC6CF)
+val lightHeatherGrey = Color(0xFFBBB9C3)

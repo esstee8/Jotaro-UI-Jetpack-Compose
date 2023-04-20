@@ -9802,5 +9802,4 @@ data class JotaroLocalData(val dummyString: String) {
         Array<Exercise>::class.java).asList()
 
 
-
 }

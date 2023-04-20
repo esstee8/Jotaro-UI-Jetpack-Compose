@@ -5,11 +5,13 @@ import android.util.Log
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.Card
+import androidx.compose.material.Divider
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
@@ -26,10 +28,13 @@ import com.idklol.jotaro.Models.Workout
 import com.idklol.jotaro.ui.theme.jotaroPurple
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.setValue
+import com.idklol.jotaro.Models.Exercise
+import com.idklol.jotaro.ui.theme.lightHeatherGrey
 
 
 val jotaroData = JotaroLocalData("")
 val workoutSamples = jotaroData.workout_samples
+val exerciseSamples = jotaroData.exercise_samples
 val sampleUserName = jotaroData.username
 
 @Composable
@@ -91,17 +96,29 @@ fun WorkoutCard(workout: Workout){
                 So, the state of the composable (via `remember` function) is updated and invokes
                     a recompose of the card
                  */
-                
-                var esList = workout.exercises
-//                var listSample = listOf<String>("asdf", "asdf2", "asdf3", "asdf4")
+
+                // Given the current workout, store the pertaining exercises as a list of their corresponding ID's
+                var exerciseIDList = workout.exercises
                 if(expanded) {
+                    Spacer(modifier = Modifier.padding(4.dp))
+                    Divider(thickness = 2.dp)
+
+                    // Show exercise items
                     Column(modifier = Modifier) {
-                        esList.forEach { item ->
-                            Text(text = item.toString())
+                        // Go through each exercise defined in the current `Workout`, going by `0000` ID
+                        exerciseIDList.forEach { currentExerciseID ->
+                            Row(modifier = Modifier) {
+                                // TODO:  IMAGE of both flex and un-flex
+
+                                //Get matching Exercises from exerciseSamples
+                                val matchedExercise: Exercise? = exerciseSamples.find { it.id == currentExerciseID }
+                                // Null safe, then toString it to make the `text` field happy
+                                Text(text = matchedExercise?.title.toString())
+                            }
                         }
                     }
                 } else {
-                    Text(text = "> Tap to show exercises <")
+                    Text(text = "> Tap to show exercises <", color = lightHeatherGrey)
                 }
 
 
