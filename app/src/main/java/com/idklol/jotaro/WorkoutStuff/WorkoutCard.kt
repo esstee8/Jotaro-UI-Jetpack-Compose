@@ -4,16 +4,10 @@ import android.content.ContentValues.TAG
 import android.util.Log
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
-import androidx.compose.foundation.combinedClickable
 import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.PaddingValues
-import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.layout.wrapContentHeight
-import androidx.compose.foundation.lazy.LazyColumn
-import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.Card
 import androidx.compose.material.MaterialTheme
@@ -23,10 +17,8 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
-import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
@@ -34,8 +26,6 @@ import com.idklol.jotaro.Models.Workout
 import com.idklol.jotaro.ui.theme.jotaroPurple
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.setValue
-import androidx.compose.ui.graphics.Color
-import kotlin.math.exp
 
 
 val jotaroData = JotaroLocalData("")
@@ -102,9 +92,14 @@ fun WorkoutCard(workout: Workout){
                     a recompose of the card
                  */
                 
-                var es_list = ListIntToListString(workout.exercises)
+                var esList = workout.exercises
+//                var listSample = listOf<String>("asdf", "asdf2", "asdf3", "asdf4")
                 if(expanded) {
-                    Text(text = "asdfasdfasdfas")
+                    Column(modifier = Modifier) {
+                        esList.forEach { item ->
+                            Text(text = item.toString())
+                        }
+                    }
                 } else {
                     Text(text = "> Tap to show exercises <")
                 }
