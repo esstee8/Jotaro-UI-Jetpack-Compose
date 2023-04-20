@@ -8,55 +8,62 @@ import java.util.Objects
 
 
 data class JotaroLocalData(val dummyString: String) {
-    // TODO: Can we take out this info and put it into a centralized kotlin file
 // Load Workout JSON Sample data; Get string by filename, then load list of json objects
-    val workout_json_string = """
-[
-    {
-        "workout_id": 1,
-        "title": "Isometric Quick Workout",
-        "exercises": [
-            "0001",
-            "0002",
-            "0027"
-        ],
-        "notes": [
-            "Quick workout with isometric focused-exercises",
-            "Use just with body"
+
+    val username = "Antonio G-B"
+
+    private val workout_json_string = """
+        [
+            {
+                "workout_id": 1,
+                "title": "Isometric Quick Workout",
+                "desc": "Short workout that focuses on the Isometric area of body",
+                "exercises": [
+                    "0001",
+                    "0002",
+                    "0027"
+                ],
+                "notes": [
+                    "Quick workout with isometric focused-exercises",
+                    "Use just with body"
+                ]
+            },
+            {
+                "workout_id": 2,
+                "title": "Compound Quick Workout",
+                "desc": "Workout that's Fast, focus on Compound area.",
+                "exercises": [
+                    "0025",
+                    "0042",
+                    "0138",
+                    "0162"
+                ],
+                "notes": [
+                    "Quick workout with compound-focused exercises"
+                ]
+            },
+            {
+                "workout_id": 3,
+                "title": "Compound & Isolation Workout",
+                "desc": "A small sample workout that uses exercises that utilize on both Compound and Isolation - NOW THIS IS SOME RANDOM EXTRA TEXT TO TEST THE OVERFLOW",
+                "exercises": [
+                    "0256",
+                    "0264",
+                    "0265"
+                ],
+                "notes": [
+                    "Quick sample workout that has both Compound-Isometric hybrid exercises",
+                    "Is there any way to improve this workout??"
+                ]
+            }
         ]
-    },
-    {
-        "workout_id": 2,
-        "title": "Compound Quick Workout",
-        "exercises": [
-            "0025",
-            "0042",
-            "0138",
-            "0162"
-        ],
-        "notes": [
-            "Quick workout with compound-focused exercises"
-        ]
-    },
-    {
-        "workout_id": 3,
-        "title": "Compound & Isolation Workout",
-        "exercises": [
-            "0256",
-            "0264",
-            "0265"
-        ],
-        "notes": [
-            "Quick workout that has both Compound-Isometric hybrid exercises",
-            "Is there any way to improve this workout??"
-        ]
-    }
-]
     """.trimIndent()
-    val workout_samples = gson.fromJson(workout_json_string, Array<Workout>::class.java).asList()
+    val workout_samples = gson.fromJson(
+        workout_json_string,
+        Array<Workout>::class.java).asList()
 
 
-    val exercise_json_string = """
+    private val exercise_json_string = """
 [
     {
         "id": "0001",
@@ -9790,7 +9797,9 @@ data class JotaroLocalData(val dummyString: String) {
     }
 ]
     """.trimIndent()
-    val exercise_samples = gson.fromJson(exercise_json_string, Array<Exercise>::class.java).asList()
+    val exercise_samples = gson.fromJson(
+        exercise_json_string,
+        Array<Exercise>::class.java).asList()
 
 
 
