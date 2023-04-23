@@ -1,10 +1,8 @@
-package com.idklol.jotaro
+package com.idklol.jotaro.TextComposables
 
 import com.idklol.jotaro.ExerciseTabStuff.gson
 import com.idklol.jotaro.Models.Exercise
 import com.idklol.jotaro.Models.Workout
-import java.io.File
-import java.util.Objects
 
 
 data class JotaroLocalData(val dummyString: String) {

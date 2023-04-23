@@ -29,6 +29,7 @@ import com.idklol.jotaro.ui.theme.jotaroPurple
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.setValue
 import com.idklol.jotaro.Models.Exercise
+import com.idklol.jotaro.TextComposables.JotaroLocalData
 import com.idklol.jotaro.ui.theme.lightHeatherGrey
 
 

@@ -1,4 +1,4 @@
-package com.idklol.jotaro
+package com.idklol.jotaro.TextComposables
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity

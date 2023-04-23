@@ -10,7 +10,7 @@ import androidx.compose.material.Surface
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.idklol.jotaro.JotaroLocalData
+import com.idklol.jotaro.TextComposables.JotaroLocalData
 import com.idklol.jotaro.Models.Workout
 import com.idklol.jotaro.WorkoutCard
 import com.idklol.jotaro.ui.theme.babyBlue
