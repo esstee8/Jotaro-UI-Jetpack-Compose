@@ -7,6 +7,7 @@ import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.Icon
 import androidx.compose.material.Scaffold
 import androidx.compose.material.Text
@@ -33,6 +34,8 @@ fun BottomNav() {
     val navController = rememberNavController()
 
     Scaffold(
+        // Scaffold holds EVERYTHING
+//        modifier = Modifier.padding(20.dp),
         bottomBar = { BottomBar(navController = navController) }
     ) {
         Modifier.padding(it)
@@ -56,9 +59,8 @@ fun BottomBar(navController: NavHostController) {
 
     Row(
         modifier = Modifier
-            .padding(start = 10.dp, end = 10.dp, top = 8.dp, bottom = 8.dp)
-            .background(Color.Transparent)
-//            .background(Color.DarkGray)
+            .padding(start = 5.dp, end = 5.dp, top = 10.dp, bottom = 8.dp)
+            .background(com.idklol.jotaro.ui.theme.jotaroPurple, shape = RoundedCornerShape(12.dp))
             .fillMaxWidth(),
         horizontalArrangement = Arrangement.SpaceEvenly,
         verticalAlignment = Alignment.CenterVertically

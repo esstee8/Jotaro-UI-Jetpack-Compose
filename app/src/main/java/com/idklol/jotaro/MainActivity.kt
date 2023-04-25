@@ -17,13 +17,7 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-                // navController  :Do when tab layout is changed
-//                val navController = rememberNavController()
-//                NavHost(navController = navController, startDestination = "profile") {
-//                    composable("Exercises") { VerticalExerciseList(exerciseItems = ) }
-//                }
-            //                val backStackEntry = navController.currentBackStackEntryAsState()
-
+            // TODO: Can we add gradient backgrounds?
             BottomNav()
 
         }

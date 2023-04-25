@@ -28,7 +28,8 @@ fun VerticalExerciseList(exerciseItems: List<Exercise>) {
         LazyColumn {
             items(exercisePairs) { exercisePair ->
                 VerticalGrid {
-                    // TODO: Make a `TinyExerciseCard` view
+                    // TODO: Make a `TinyExerciseCard` view;
+                    //  Really, just remove primer, leaving 4 tidbits
                     ExerciseCard(exercise = exercisePair.first)
                     ExerciseCard(exercise = exercisePair.second)
                 }
