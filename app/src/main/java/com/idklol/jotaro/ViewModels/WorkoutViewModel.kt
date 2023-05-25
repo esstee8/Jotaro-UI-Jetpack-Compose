@@ -6,7 +6,21 @@ import com.idklol.jotaro.ExerciseStuff.gson
 import com.idklol.jotaro.Models.Workout
 
 class WorkoutViewModel : ViewModel() {
-    private val _workouts = getDefaultWorkouts()
+    /*          WORKOUTS           */
+    //TODO: (1) If there's a change, that's when we start saving it. Adjust the code below correspondingly w/a boolean
+    private var _workouts = getDefaultWorkouts()
+
+    //Get workouts  (HERE TOO, IT HAS TO BE ADAPTED FROM DEFAULT/NON-DEFAULT
+    val workouts: List<Workout>
+        get() = _workouts
+
+    // Remove item
+    fun remove(item: Workout) {
+        var workoutsMutable = _workouts.toMutableList()
+        val itemIndex = workoutsMutable.indexOf(item)
+        workoutsMutable.removeAt(itemIndex)
+        _workouts = workoutsMutable.toList()
+    }
 
 
 }

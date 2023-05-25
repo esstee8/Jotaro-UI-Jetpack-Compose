@@ -1,30 +1,11 @@
-package com.idklol.jotaro.TextComposables
+package com.idklol.jotaro.Assets.BaseData
 
-import com.idklol.jotaro.Assets.BaseData.DefaultWorkouts
-import com.idklol.jotaro.ExerciseStuff.gson
-import com.idklol.jotaro.Models.Exercise
 import com.idklol.jotaro.Models.Workout
 
-
-data class JotaroLocalData(val dummyString: String) {
-// Load Workout JSON Sample data; Get string by filename, then load list of json objects
-
-
-    // TODO: Refactor all these references with the ViewModel once. Then, delete this.
-
-    val workoutsDefault = DefaultWorkouts()
-    val workout_json_string = workoutsDefault.defaultWorkouts
-
-    val username = "Antonio G-B"
-
-
-
-    val workout_samples = gson.fromJson(
-        workout_json_string,
-        Array<Workout>::class.java).asList()
-
-
-    private val exercise_json_string = """
+// Stores the JSON data (as a String) for the default Exercise list
+data class DefaultExercises(val dummyStringIgnore: String? = null ) {
+    // data
+    private val _exerciseDataAsString =  """
 [
     {
         "id": "0001",
@@ -9758,9 +9739,8 @@ data class JotaroLocalData(val dummyString: String) {
     }
 ]
     """.trimIndent()
-    val exercise_samples = gson.fromJson(
-        exercise_json_string,
-        Array<Exercise>::class.java).asList()
 
-
+    // getter
+    val defaultWorkouts: String
+        get() = _exerciseDataAsString
 }
