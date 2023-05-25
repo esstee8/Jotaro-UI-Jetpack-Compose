@@ -14,6 +14,7 @@ import com.idklol.jotaro.TextComposables.JotaroLocalData
 import com.idklol.jotaro.Models.Workout
 import com.idklol.jotaro.WorkoutCard
 import com.idklol.jotaro.ui.theme.babyBlue
+import com.idklol.jotaro.ui.theme.gradientRB
 
 // For testing the compose views
 val workout_data = JotaroLocalData("")
@@ -23,9 +24,9 @@ fun WorkoutList(workoutsItems: List<Workout>) {
 
 
     Surface(modifier = Modifier.fillMaxHeight()) {
-        LazyColumn(modifier = Modifier.background(babyBlue)) {
+        // Display list of WorkoutCards
+        LazyColumn(modifier = Modifier.background(gradientRB)) {
             items(workoutsItems) { workout ->
-                Log.d(TAG, "WorkoutList: item is " + workout.title)
                 WorkoutCard(workout)
             }
         }

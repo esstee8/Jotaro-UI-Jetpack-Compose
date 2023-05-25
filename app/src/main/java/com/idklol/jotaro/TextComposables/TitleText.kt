@@ -15,8 +15,8 @@ fun TitleText(title: String){
         style = MaterialTheme.typography.h1,
         textAlign = TextAlign.Center,
         color = jotaroDarkIntenseBlue,
-        fontSize = 22.sp,
+        fontSize = 24.sp,
         fontWeight = FontWeight.Bold,
-        letterSpacing = 2.sp,
+        letterSpacing = 1.sp,
     )
 }

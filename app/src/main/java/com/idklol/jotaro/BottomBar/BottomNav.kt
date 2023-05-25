@@ -28,6 +28,8 @@ import androidx.navigation.NavGraph.Companion.findStartDestination
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
+import com.idklol.jotaro.ui.theme.pastelBlue
+import com.idklol.jotaro.ui.theme.pastelOrange
 
 @Composable
 fun BottomNav() {
@@ -59,8 +61,9 @@ fun BottomBar(navController: NavHostController) {
 
     Row(
         modifier = Modifier
-            .padding(start = 5.dp, end = 5.dp, top = 10.dp, bottom = 8.dp)
-            .background(com.idklol.jotaro.ui.theme.jotaroPurple, shape = RoundedCornerShape(12.dp))
+            .padding(start = 0.dp, end = 0.dp, top = 10.dp, bottom = 0.dp)
+                // Added top rounded corners to the shape
+            .background(com.idklol.jotaro.ui.theme.gradientRB, shape = RoundedCornerShape(topStart = 12.dp, topEnd = 12.dp))
             .fillMaxWidth(),
         horizontalArrangement = Arrangement.SpaceEvenly,
         verticalAlignment = Alignment.CenterVertically
@@ -85,7 +88,7 @@ fun RowScope.AddItem(
     val selected = currentDestination?.hierarchy?.any { it.route == screen.route } == true
 
     val background =
-        if (selected) MaterialTheme.colorScheme.primary.copy(alpha = 0.6f) else Color.Transparent
+        if (selected) pastelOrange else Color.Transparent
 
     val contentColor =
         if (selected) Color.White else Color.Black

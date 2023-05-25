@@ -1,4 +1,4 @@
-package com.idklol.jotaro.ExerciseTabStuff
+package com.idklol.jotaro.ExerciseStuff
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer

@@ -5,7 +5,8 @@ import androidx.compose.runtime.Composable
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
-import com.idklol.jotaro.ExerciseTabStuff.ExerciseList
+import com.idklol.jotaro.ExerciseStuff.ExerciseList
+import com.idklol.jotaro.SettingsStuff.SettingsScreen
 import com.idklol.jotaro.jotaroData
 import com.idklol.jotaro.workoutstuff.WorkoutList
 
@@ -29,7 +30,7 @@ fun BottomNavGraph(
             // TODO: Put the '+' for adding a workout
         }
         composable(route = BottomBarScreen.Settings.route) {
-            Text(text = "THIS IS THE SETTINGS SCREEN")
+            SettingsScreen()
         }
     }
 }

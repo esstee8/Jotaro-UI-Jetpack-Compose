@@ -1,9 +1,8 @@
 package com.idklol.jotaro
 
-import android.content.ContentValues.TAG
-import android.util.Log
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
+import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
@@ -15,23 +14,26 @@ import androidx.compose.material.Divider
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Brush
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.idklol.jotaro.Models.Workout
-import com.idklol.jotaro.ui.theme.jotaroPurple
-import androidx.compose.runtime.getValue
-import androidx.compose.runtime.setValue
 import com.idklol.jotaro.Models.Exercise
+import com.idklol.jotaro.Models.Workout
 import com.idklol.jotaro.TextComposables.JotaroLocalData
+import com.idklol.jotaro.ui.theme.gradientRB
 import com.idklol.jotaro.ui.theme.lightHeatherGrey
-
+import com.idklol.jotaro.ui.theme.pastelRed
+import com.idklol.jotaro.ui.theme.pastelOrange
 
 val jotaroData = JotaroLocalData("")
 val workoutSamples = jotaroData.workout_samples
@@ -48,9 +50,10 @@ fun WorkoutCard(workout: Workout){
     //  the composable's new form
     var expanded by remember { mutableStateOf (false) }
 
+
+
     Column(
         modifier = Modifier
-            .background(jotaroPurple)
             .padding(2.dp)
     ) {
         // Expanded function adapted from:
@@ -65,18 +68,20 @@ fun WorkoutCard(workout: Workout){
                 // Toggle functionality
                 // TODO: combinedClickable (long hold to do something to the workout card)
                 .clickable {
-                    Log.d(TAG, "WorkoutCard: WORKOUT CARD PRESSED")
                     expanded = !expanded
                 } // We use {} instead of () because of trailing lambda parameter
         ) {
             Column(
-                modifier = Modifier.padding(18.dp),
-                horizontalAlignment = Alignment.CenterHorizontally
+                modifier = Modifier.padding(16.dp),
+                horizontalAlignment = Alignment.CenterHorizontally,
+                verticalArrangement = Arrangement.SpaceEvenly
             ) {
                 // Title
                 TitleText(workout.title)
-                Spacer(modifier = Modifier.padding(6.dp))
-
+                Spacer(modifier = Modifier.padding(4.dp))
+                // Description
+                LineText(workout.desc)
+                Spacer(modifier = Modifier.padding(4.dp))
                 // Author
                 Text(
                     text = "\t (@" + sampleUserName + ")",
@@ -84,11 +89,8 @@ fun WorkoutCard(workout: Workout){
                     fontWeight = FontWeight.Light,
                     textAlign = TextAlign.Center
                 )
-                Spacer(modifier = Modifier.padding(6.dp))
+                Spacer(modifier = Modifier.padding(4.dp))
 
-                // Description
-                LineText(workout.desc)
-                Spacer(modifier = Modifier.padding(6.dp))
                 /*
 
                 Click on card -> `clickable` property activates it's defined lambda, and `expanded`
@@ -101,8 +103,8 @@ fun WorkoutCard(workout: Workout){
                 // Given the current workout, store the pertaining exercises as a list of their corresponding ID's
                 var exerciseIDList = workout.exercises
                 if(expanded) {
-                    Spacer(modifier = Modifier.padding(4.dp))
-                    Divider(thickness = 2.dp)
+//                    Spacer(modifier = Modifier.padding(6.dp))
+                    Divider(modifier = Modifier.padding(6.dp),thickness = 2.dp)
 
                     // Show exercise items
                     Column(modifier = Modifier) {

@@ -17,6 +17,7 @@ fun LineText(line: String){
         fontStyle = FontStyle.Italic,
         fontSize = 16.sp,
         maxLines = 2,
+        softWrap = true,
         overflow = TextOverflow.Ellipsis
     )
 }

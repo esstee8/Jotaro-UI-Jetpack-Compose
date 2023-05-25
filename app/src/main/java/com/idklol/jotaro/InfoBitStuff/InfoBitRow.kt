@@ -1,4 +1,4 @@
-package com.idklol.jotaro.ExerciseTabStuff
+package com.idklol.jotaro.ExerciseStuff
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Row
